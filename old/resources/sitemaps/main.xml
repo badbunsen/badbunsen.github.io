@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 	<!--because google said so-->
+										<!-- they're getting sued 
+										anyway but UTF is more popular 
+										these days -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.rubberocket.com/</loc>        <!--   homepage   -->
+		<lastmod>2024-10-26</lastmod>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/art/</loc>    <!-- artview page -->
+		<lastmod>2024-10-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc> <!--  video page  -->
+		<lastmod>2024-09-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/about/</loc>  <!--  about page  -->
+		<lastmod>2024-09-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/upl/</loc>  <!--  upl -->
+		<lastmod>2024-10-26</lastmod>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/moar/</loc> <!-- other links -->
+		<lastmod>2024-09-21</lastmod>
+	</url>
+</urlset>

@@ -1,0 +1,226 @@
+<!-- all art -->
+			<div style="overflow-y: scroll; display: block; border: black solid 5px; width: 224px; height: 224px;" id="art">
+
+			<!-- latest --> <a href="#" onClick="selectArtById('2024_10_27_adam'); return false;">
+			<img src="/resources/art/previews/2024_10_27_adam.gif" alt="More of Adam the Eyeball!" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_10_26_deadpool'); return false;">
+			<img src="/resources/art/previews/2024_10_26_deadpool.gif" alt="Deadpool Sketches" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_10_26_radiohead'); return false;">
+			<img src="/resources/art/previews/2024_10_26_radiohead.gif" alt="Modified Bears" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_04_01_sketchbook'); return false;">
+			<img src="/resources/art/previews/2024_04_01_sketchbook.gif" alt="Early 2024 Sketchbook" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_10_05_eyeguy'); return false;">
+			<img src="/resources/art/previews/2024_10_05_eyeguy.gif" alt="Adam the Eyeball" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_10_03_Scan10015'); return false;">
+			<img src="/resources/art/previews/2024_10_03_Scan10015.gif" alt="Some Clash Sketches" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_09_24_bidenxwhat'); return false;">
+			<img src="/resources/art/previews/2024_09_24_bidenxwhat.gif" alt="Biden x What?!" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_08_31_PUMKIN'); return false;">
+			<img src="/resources/art/previews/2024_08_31_PUMKIN.gif" alt="pumkin" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_07_09_unnamedspecies'); return false;">
+			<img src="/resources/art/previews/2024_07_09_unnamedspecies.gif" alt="species i have yet to name" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_07_08_okeydokey'); return false;">
+			<img src="/resources/art/previews/2024_07_08_okeydokey.gif" alt="nothing much here i swear" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_06_27_furry'); return false;">
+			<img src="/resources/art/previews/2024_06_27_furry.gif" alt="is that... a furry" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_03_04_jeff'); return false;">
+			<img src="/resources/art/previews/2024_03_04_jeff.gif" alt="Jeff the computer!" width="64" height="64"></a>
+
+            <a href="#" onClick="selectArtById('2024_02_23_rachel'); return false;">
+			<img src="/resources/art/previews/2024_02_23_rachel.gif" alt="Rachel" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_02_09_jailbot'); return false;">
+			<img src="/resources/art/previews/2024_02_09_jailbot.gif" alt="Jailbot" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2024_02_04_fluffy'); return false;">
+			<img src="/resources/art/previews/2024_02_04_fluffy.gif" alt="Fluffy the gorgus" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_10_10_guys'); return false;">
+			<img src="/resources/art/previews/2023_10_10_guys.gif" alt="The Blah Guys!" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_10_10_gorgus'); return false;">
+			<img src="/resources/art/previews/2023_10_10_gorgus.gif" alt="Old Gorgi Designs" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_10_01_stuart'); return false;">
+			<img src="/resources/art/previews/2023_10_01_stuart.gif" alt="Stuart the Very, Very Edgy Bat" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_10_01_yum'); return false;">
+			<img src="/resources/art/previews/2023_10_01_yum.gif" alt="Yum!" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_09_11_brush'); return false;">
+			<img src="/resources/art/previews/2023_09_11_brush.gif" alt="Brush from Million Champs" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_07_23_age'); return false;">
+			<img src="/resources/art/previews/2023_07_23_age.gif" alt="A Bunch of Characters" width="64" height="64"></a>
+
+			<a href="#" onClick="selectArtById('2023_07_22_atwcloth'); return false;">
+			<img src="/resources/art/previews/2023_07_22_atwcloth.gif" alt="Alastor---no, not that one---wearing a sweater" width="64" height="64"></a>
+
+			<!-- oldest i could find --> <a href="#" onClick="selectArtById('2023_02_22_allalie'); return false;">
+			<img src="/resources/art/previews/2023_02_22_allalie.gif" alt="EDGY AS FUCK" width="64" height="64"></a>
+
+          </div>
+		<!-- info -->
+		<div>
+		  <span id="aPreview"></span>
+		  <h3 id="aTitle">...scroll through the box above and pick something</h3>
+		  <p id="aDescription">your description here</p>
+		  <p id="aDate"></p>
+		  <p id="aViewfull"></p>
+		  </div>
+		  <!-- js for all this shit -->
+		  <script type="text/javascript">
+		  const title = document.getElementById("aTitle");
+		  const desc = document.getElementById("aDescription");
+		  const viewfull = document.getElementById("aViewfull");
+		  const preview = document.getElementById("aPreview");
+		  const date = document.getElementById("aDate");
+
+		  // set preview image
+		  
+		  function selectArtById(identifier){
+		  	var iden = identifier.toString();
+			//<img src="yourimagehere" width="128" alt="" id="aPreview" style="text-align:right;">
+			console.log(iden);
+			getDescAndWhatnot(iden);
+		  }
+		  // set image description, alt info and title
+		  function getDescAndWhatnot(id) {
+		  
+		  	var ied = id.toString();
+			
+			console.log(ied);
+
+			if (ied === "2024_10_27_adam") {
+				format = ".jpg";
+				title.innerHTML = "More of Adam the Eyeball!";
+				desc.innerHTML = "Self-explanatory title. He's taller and a little lanky here, I like it.";
+				date.innerHTML = "<p><strong><em><small>Finished October 27th, 2024.</small></em></strong></p>";
+			} if (ied === "2024_10_26_deadpool") {
+				format = ".jpg";
+				title.innerHTML = "Deadpool Sketches";
+				desc.innerHTML = "This is a particular piece of art I enjoyed making, but the one(s) with Bloo with it kinda stink in the inking department. Oh well.";
+				date.innerHTML = "<p><strong><em><small>Finished October 26th, 2024.</small></em></strong></p>";
+			} else if (ied === "2024_10_26_radiohead") {
+				format = ".jpg";
+				title.innerHTML = "Modified Bears";
+				desc.innerHTML = "I did this sketch yesterday, but I feel too lazy to change the filename. Whatever.<br>Anyways, this is fanart of the Radiohead mascot. <a href='http://archive.radiohead.com/2000/modbear.html' target='_blank'>There's a comic of it, too</a>, and I've referenced it at the top somewhat.";
+				date.innerHTML = "<p><strong><em><small>Finished October 25th, 2024, scanned October 26th, 2024.</small></em></strong></p>";
+			} else if (ied === "2024_04_01_sketchbook") {
+				format = ".pdf";
+				title.innerHTML = "Early 2024 Sketchbook";
+				desc.innerHTML = "A sketchbook from semester 2 of 8th grade.";
+				date.innerHTML = "<p><strong><em><small>Sketches done from January 4th 2024 to April 1st 2024.</small></em></strong></p>";
+			} else if (ied === "2024_10_05_eyeguy") {
+				format = ".jpg";
+				title.innerHTML = "Eyeball Adam";
+				desc.innerHTML = "Some more Clash sketches. This time of Adam Wellington The Third, an eyeball thingy. Although he was initially supposed to have one eye and a face, I guess he evolved into just an eye. How does he eat? Well, I sort of answer it somewhere, not sure.<br>Notice the watermark? Yeah, I forgot to add one to the previous artpost, but it's too late since it's already online and in the Git repo, so anyone can fetch it through a commit. At least you can see through it this time.";
+				date.innerHTML = "<p><strong><em><small>Brain sketch done on October 2nd, 2024. Rest done on October 3rd 2024.</small></em></strong></p>";
+			} else if (ied === "2024_10_03_Scan10015") {
+				format = ".jpg";
+				title.innerHTML = "Some Clash Sketches";
+				desc.innerHTML = "Some Clash sketches. Not gonna tell you what Clash means yet, but these sketches are closer to Happy Tree Friends than I'd like it to be. Maybe that'll change? I'm not sure.<br>The little bat thing's name is Colbert Nash. I think that's the closest thing that you're going to get to a Halloween-themed main character protagonist thing. In Clash, that is. Stuart wishes he were in Colbert's shoes...";
+				date.innerHTML = "<p><strong><em><small>Brain sketch done on October 2nd, 2024. Rest done on October 3rd 2024.</small></em></strong></p>";
+			} else if (ied === "2024_09_24_bidenxwhat") {
+				format = ".jpg";
+				title.innerHTML = "Patrick Disgusted at Biden x Trump";
+				desc.innerHTML = "So I'm at Art &amp; Design, right? I see this... wonderful... drawing in front of my eyes at the graffiti wall. You can safely assume I drew my response: Patrick being disgusted.<br><small>Patrick Star &copy; Forever Paramount Global.</small>";
+				date.innerHTML = "<p><strong><em><small>Finished September 24th 2024.</small></em></strong></p>";
+			} else if (ied === "2024_08_31_PUMKIN") {
+				format = ".jpg";
+				title.innerHTML = "The Pumkin";
+				desc.innerHTML = "I'm very hungry! Give me the CHEESE. No! I don't want that! That was terrible! I'm never visiting this website again!<br><small>Pumkin &copy; 2008 Pumkin.com</small>";
+				date.innerHTML = "<p><strong><em><small>Finished August 31st 2024.</small></em></strong></p>";
+			} else if (ied === "2024_07_09_unnamedspecies") {
+				format = ".jpg";
+				title.innerHTML = "Unnamed species playing guitar";
+				desc.innerHTML = "Some demonic looking thing playing guitar, still haven't come up with a name for it. I feel pretty proud about it to this day, though.";
+				date.innerHTML = "<p><strong><em><small>Finished July 9th 2024.</small></em></strong></p>";
+			} else if (ied === "2024_07_08_okeydokey") {
+				format = ".jpg";
+				title.innerHTML = "Okey dokey";
+				desc.innerHTML = "no comment";
+				date.innerHTML = "<p><strong><em><small>Finished July 8th 2024.</small></em></strong></p>";
+			} else if (ied === "2024_06_27_furry") {
+				format = ".jpg";
+				title.innerHTML = "Winston Malboro";
+				desc.innerHTML = "I've decided to set the identifier for this to furry, and I think you can come up with your own conclusions as to why. I feel like reworking the character a bit, since when I first drew him he was supposed to be a Gordon Freeman ripoff.";
+				date.innerHTML = "<p><strong><em><small>Finished June 27th 2024.</small></em></strong></p>";
+			} else if (ied === "2024_03_04_jeff") {
+				format = ".jpg";
+				title.innerHTML = "Jeff The Computer";
+				desc.innerHTML = "Object show looking feller. Note that if I were to make an object show, it would not be competition-focused, it would not rely on votes, and it would air on a <strike>Viacom</strike><strike>Paramount</strike><strike>Skydance</strike><a href='https://web.archive.org/web/20240921015609/https://en.wikipedia.org/wiki/Proposed_merger_of_Skydance_Media_and_Paramount_Global' target='_blank'>NEW PARAMOUNT</a>-operated network.";
+				date.innerHTML = "<p><strong><em><small>Finished March 3rd 2024.</small></em></strong></p>";
+			} else if (ied === "2024_02_23_rachel") {
+				format = ".jpg";
+				title.innerHTML = "Rachel Stevenson";
+				desc.innerHTML = "Uhhh... umm...";
+				date.innerHTML = "<p><strong><em><small>Finished February 23rd 2024.</small></em></strong></p>";
+			} else if (ied === "2024_02_09_jailbot") {
+				format = ".jpg";
+				title.innerHTML = "Jailbot!";
+				desc.innerHTML = "Y'know, Jailbot from Superjail? Ever watch Adult Swim? Uh... I'm all out of excuses for being out of the loop. I give up.";
+				date.innerHTML = "<p><strong><em><small>Finished February 9th 2024.</small></em></strong></p>";
+			} else if (ied === "2024_02_04_fluffy") {
+				format = ".jpg";
+				title.innerHTML = "Rubberocket Mascot Contender";
+				desc.innerHTML = "One of the only considerations for a Rubberocket mascot, a cat... bat... bird... fox... thing. I mean, it kind of already exists, but this one is more of a cat than a cute, winged thing with a chance of rabies or something. <br>Unfortunately it was put down by June of this year (2024)."
+				date.innerHTML =  "<p><strong><em><small>Finished February 4th 2024.</small></em></strong></p>";
+			} else if (ied === "2023_10_10_guys") {
+				format = ".jpg";
+				title.innerHTML = "A Bunch of Blah Guys";
+				desc.innerHTML = "All the Blanc Blahticas in the world... so far."
+				date.innerHTML =  "<p><strong><em><small>Uploaded to boredom, inc. October 10th 2023.</small></em></strong></p>";
+			} else if (ied === "2023_10_10_gorgus") {
+				format = ".jpg";
+				title.innerHTML = "Old Gorgi Designs";
+				desc.innerHTML = "Some older Gorgi designs, they look more like bats here as opposed to later versions of the species."
+				date.innerHTML =  "<p><strong><em><small>Uploaded to boredom, inc. October 10th 2023.</small></em></strong></p>";
+			} else if (ied === "2023_10_01_yum") {
+				format = ".jpg";
+				title.innerHTML = "Yum Yum!";
+				desc.innerHTML = "This is why biodiversity is decreasing... everything is too tasty! Even the roaches in the cracks aren't safe..."
+				date.innerHTML =  "<p><strong><em><small>Uploaded to boredom, inc. October 1st 2023.</small></em></strong></p>";
+			}  else if (ied === "2023_10_01_stuart") {
+				format = ".jpg";
+				title.innerHTML = "Stuart the Bat";
+				desc.innerHTML = "Cool, another edgy drawing"
+				date.innerHTML =  "<p><strong><em><small>Uploaded to boredom, inc. October 1st 2023.</small></em></strong></p>";
+			} else if (ied === "2023_09_11_brush") {
+				format = ".jpg";
+				title.innerHTML = "Brush from Million Champs";
+				desc.innerHTML = "Jet fuel can't melt object show brushes!"
+				date.innerHTML =  "<p><strong><em><small>Finished September 11th 2023.</small></em></strong></p>";
+			} else if (ied === "2023_07_23_age") {
+				format = ".jpg";
+				title.innerHTML = "A Bunch of Characters";
+				desc.innerHTML = "A lot of characters throughout the years or something."
+				date.innerHTML =  "<p><strong><em><small>Finished July 23rd 2023.</small></em></strong></p>";
+			} else if (ied === "2023_07_22_atwcloth") {
+				format = ".jpg";
+				title.innerHTML = "Alastor wearing a sweater";
+				desc.innerHTML = "I just think it's neat!"
+				date.innerHTML =  "<p><strong><em><small>Finished July 22nd 2023.</small></em></strong></p>";
+			} else if (ied === "2023_02_22_allalie") {
+				format = ".jpg";
+				title.innerHTML = "All A Lie";
+				desc.innerHTML = "So, basically, he's happy on the outside, but he's dying on the inside because he's scared... Give me the Edgy Awards Idol."
+				date.innerHTML =  "<p><strong><em><small>Finished February 22nd 2023.</small></em></strong></p>";
+			}
+			
+			viewfull.innerHTML = '<a href="../../resources/art/' + ied + format + '" target="_blank">Click the image (or click here) to view a higher-quality version of the image.</a>';
+			preview.innerHTML = '<a href="../../resources/art/' + ied + format + '" target="_blank">' +  '<img src="' + "../resources/images/art/" + ied + "_lq.jpg" + '" width="128" alt="" style="text-align:right;"></a>';
+			
+		  }
+		  </script>

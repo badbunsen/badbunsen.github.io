@@ -1,0 +1,35 @@
+html, body {
+	background: #FFCC00;
+	color: #000000;
+}
+.siteUI_header, .siteUI_navbar, .main, .footer {
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.siteUI_header, .siteUI_navbar, .footer {
+	text-align: center;
+}
+
+.siteUI_navbar_link {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	padding: 5px;
+	text-align: center;
+}
+.siteUI_navbar_link_icon {
+width: 48px;
+height: 48px;
+}
+.text-center {
+	text-align: center;
+}
+.thing-center {
+	margin: 0 auto;
+}
+
+.footer {
+	font-size: small;
+}

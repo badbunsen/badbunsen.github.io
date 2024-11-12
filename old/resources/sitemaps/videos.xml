@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/bagel.jpg</video:thumbnail_loc>
+			<video:title>Or, Is It the Bagel??</video:title>
+			<video:description>
+			I'm really proud of how this one turned out, especially since I ended up only using scrubbing to set up what letters are said in what time and to see if everything lined up. In which it did.
+This is also the first animation I've made to be edited together in Davinci Resolve, and the first with a watermark. Although you might be able to steal it by cropping... oh well!
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/bagel.mp4</video:content_loc>
+			<!-- no player as of now -->
+			<!-- probably never haha -->
+			<video:publication_date>2024-09-28</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly> <!-- it's set to no if there's any porn. which will never happen -->
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc> <!-- to quote google:
+		<video:content_loc> or <video:player_loc> is the same as <loc> value. 
+		These tags should contain links to the actual video, not the video's 
+		html landing page.
+		-->
+		<!-- it's not html but it doesn't want to accept it anyway. :( -->
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/herecomes.jpg</video:thumbnail_loc>
+			<video:title>Here Comes The Sun...</video:title>
+			<video:description>
+			I think you might find this unfunny. Not only because it's jank but also because of the topic. 
+			This was just something I came up with in minutes, so of course it's not a Oscar-worthy short.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/herecomes.mp4</video:content_loc>
+			<!-- no player as of now -->
+			<!-- probably never haha -->
+			<video:publication_date>2024-09-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly> <!-- it's set to no if there's any porn. which will never happen -->
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/yawc.jpg</video:thumbnail_loc>
+			<video:title>Yet another walk cycle</video:title>
+			<video:description>
+			I mean, it's a little stilted here and there, but hey, it's a walk cycle. What are you going to do about it?
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/yawc.mp4</video:content_loc>
+			<video:publication_date>2024-07-29</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/psycholittleguy.jpg</video:thumbnail_loc>
+			<video:title>Yet another walk cycle</video:title>
+			<video:description>
+			 I find Greeny Phatom... strange... to this very day. With that being said, this is the longest thing I've ever storyboarded! How sad...
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/psycholittleguy.mp4</video:content_loc>
+			<video:publication_date>2024-03-24</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/12principles_2023.jpg</video:thumbnail_loc>
+			<video:title>12 Principles Practice (2023)</video:title>
+			<video:description>
+			 I find Greeny Phatom... strange... to this very day. With that being said, this is the longest thing I've ever storyboarded! How sad...
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/12principles_2023.mp4</video:content_loc>
+			<video:publication_date>2023-10-05</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/foot.jpg</video:thumbnail_loc>
+			<video:title>Little Guy and The Foot</video:title>
+			<video:description>
+			  2.14 stars on Newgrounds! 2.14 stars on Newgrounds!! 2.14 stars on Newgrounds!!! 2.14 stars on Newgrounds!!!! 2.14 stars on Newgrounds!!!!! And it's still up...
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/12principles_2023.mp4</video:content_loc>
+			<video:publication_date>2023-06-02</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/homemade.jpg</video:thumbnail_loc>
+			<video:title>A Bomb Factory</video:title>
+			<video:description>
+			  One of many examples of me being late to a meme. Also quite unfunny. And lazy.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/homemade.mp4</video:content_loc>
+			<video:publication_date>2023-05-19</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/andreboom.jpg</video:thumbnail_loc>
+			<video:title>Andre Explodes</video:title>
+			<video:description>
+			  By Aleph, age 13. My mom says I'm cool
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/andreboom.mp4</video:content_loc>
+			<video:publication_date>2023-02-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/nosd_store.jpg</video:thumbnail_loc>
+			<video:title>Nightmare: Outer Space Demon's Failed Pilot</video:title>
+			<video:description>
+			  What store? There's no background.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/nosd_store.mp4</video:content_loc>
+			<video:publication_date>2022-10-23</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/fgpt.jpg</video:thumbnail_loc>
+			<video:title>F.G.P.T. Storyboard Test</video:title>
+			<video:description>
+			  (The description on the site says "Uhh...". I'm not sure what to put here in its place but I guess there's this)
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/fgpt.mp4</video:content_loc>
+			<video:publication_date>2022-06-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/goodbadlips.jpg</video:thumbnail_loc>
+			<video:title>Lip-sync test</video:title>
+			<video:description>
+			  Finally getting better at lipsync here, I see. 
+			  Part of this is, of course, stolen audio, not sure about what exactly it was from but CosmicToons voiced the cheese-headed bean boy.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/goodbadlips.mp4</video:content_loc>
+			<video:publication_date>2022-02-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/johnnytest.jpg</video:thumbnail_loc>
+			<video:title>johnnytest.swf</video:title>
+			<video:description>
+			  I will never be able to match the quality of lolwut.info.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/johnnytest.mp4</video:content_loc>
+			<video:publication_date>2021-08-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/sunshine_my_dear_watson.jpg</video:thumbnail_loc>
+			<video:title>Sus-shine My Dear Watson</video:title>
+			<video:description>
+			  Blegh
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/sunshine_my_dear_watson.mp4</video:content_loc>
+			<video:publication_date>2021-08-15</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/mayors.jpg</video:thumbnail_loc>
+			<video:title>Just An Ordinary Web Series: Mayors</video:title>
+			<video:description>
+			  I believe I pitched this to Albino Blacksheep but they didn't respond. Safe to say that it sucked.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/mayors.mp4</video:content_loc>
+			<video:publication_date>2021-05-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/12principles_2021.jpg</video:thumbnail_loc>
+			<video:title>12 Principles Practice (2021)</video:title>
+			<video:description>
+			  Blegh
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/12principles_2021.mp4</video:content_loc>
+			<video:publication_date>2021-04-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>https://www.rubberocket.com/videos/</loc>
+		<video:video>
+			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/mfa.jpg</video:thumbnail_loc>
+			<video:title>First Ever Flash Animation!</video:title>
+			<video:description>
+			  I finally got to see the topic of this video for myself... and it's just another edutainment game. What a shock.
+			</video:description>
+			<video:content_loc>https://www.rubberocket.com/resources/videos/mfa.mp4</video:content_loc>
+			<video:publication_date>2020-06-01</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+</urlset>

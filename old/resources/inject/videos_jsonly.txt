@@ -1,0 +1,147 @@
+<div>
+		  <!--yeah-->
+          <div style="overflow-y: scroll; display: block; border: black solid 5px; width: 360px; height: 146px;" id="art">
+		  <a href="#" onClick="selectVidById('bagel'); return false;"><img src="/resources/vidthumb/bagel.jpg" alt="Or, is it the bagel??" width="64" height="48">
+		  <a href="#" onClick="selectVidById('herecomes'); return false;"><img src="/resources/vidthumb/herecomes.jpg" alt="Here comes the sun" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('yawc'); return false;"><img src="/resources/vidthumb/yawc.jpg" alt="Yet another walk cycle." width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('psycholittleguy'); return false;"><img src="/resources/vidthumb/psycholittleguy.jpg" alt="P-head with a plan &quot;storyboard&quot;" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('12principles_2023'); return false;"><img src="/resources/vidthumb/12principles_2023.jpg" alt="The second 12 Principles animation test." width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('foot'); return false;"><img src="/resources/vidthumb/foot.jpg" alt="The Foot!" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('homemade'); return false;"><img src="/resources/vidthumb/homemade.jpg" alt="Bomb Factory" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('stanlook'); return false;"><img src="/resources/vidthumb/stanlook.jpg" alt="Stan looks around... boring, ain't it" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('andreboom'); return false;"><img src="/resources/vidthumb/andreboom.jpg" alt="Andre explodes" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('nosd_store'); return false;"><img src="/resources/vidthumb/nosd_store.jpg" alt="Nightmare: Outer Space Demon's only episode thus far" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('fgpt'); return false;"><img src="/resources/vidthumb/fgpt.jpg" alt="Fitness Gram Pacer Test Storyboard" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('goodbadlips'); return false;"><img src="/resources/vidthumb/goodbadlips.jpg" alt="Good/Bad Lip Sync Test." width="64" height="48"></a>
+          <a href="#" onClick="selectVidById('johnnytest'); return false;"><img src="/resources/vidthumb/johnnytest.jpg" alt="Johnny Test parody. Unfinished." width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('sunshine_my_dear_watson'); return false;"><img src="/resources/vidthumb/sunshine_my_dear_watson.jpg" alt="Sus-shine, my dear watson" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('12principles_2021'); return false;"><img src="/resources/vidthumb/12principles_2021.jpg" alt="The first twelve principles test" width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('mayors'); return false;"><img src="/resources/vidthumb/mayors.jpg" alt="...we come from the mayors." width="64" height="48"></a>
+		  <a href="#" onClick="selectVidById('mfa'); return false;"><img src="/resources/vidthumb/mfa.jpg" alt="My first ever Flash animation. Look at it!" width="64" height="48"></a>
+          </div>
+		  <!-- info -->
+		<div>
+		  <!-- image -->
+		  <span id="vPreview"></span>
+		  <!--desc and title, rather, vice versa -->
+		  <h3 id="vTitle">...scroll through the box above and pick something</h3>
+		  <p id="vDescription">your description here</p>
+		  <p id="vDate"></p>
+		  <p><strong>Requires</strong>: <span id="vReq">just select something already</span></p>
+		  <p id="vViewfull"></p>
+	    </div>
+		  <!-- js for all this shit -->
+		  <script type="text/javascript">
+		  const title = document.getElementById("vTitle");
+		  const desc = document.getElementById("vDescription");
+		  const viewfull = document.getElementById("vViewfull");
+		  const preview = document.getElementById("vPreview");
+		  const date = document.getElementById("vDate");
+		  const req = document.getElementById("vReq");
+
+		  // set preview image
+		  function selectVidById(identifier){
+		  	var iden = identifier.toString();
+			preview.innerHTML = '<a href="/resources/videos/' + iden + '.mp4" target="_blank">' +  '<img src="' + "../resources/images/vidthumb/" + iden + ".jpg" + '" width="128" alt="" style="text-align:right;"></a>';
+			console.log(iden);
+			getDescAndWhatnot(iden);
+		  }
+		  // set image description, alt info and title
+		  function getDescAndWhatnot(id) {
+		  
+		  	var ied = id.toString();
+			
+			console.log(ied);
+			
+			if (ied == "bagel") {
+				title.innerHTML = "Or, is it the bagel??";
+				desc.innerHTML = "I'm really proud of how this one turned out, especially since I ended up only using scrubbing to set up what letters are said in what time and to see if everything lined up. In which it did.<br>This is also the first animation I've made to be edited together in Davinci Resolve, and the first with a watermark. Although you might be able to steal it by cropping... oh well!";
+				date.innerHTML = "<p><strong><em><small>Finished September 28th 2024.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			}else if (ied === "herecomes") {
+				title.innerHTML = "Here comes the sun...";
+				desc.innerHTML = "I think you might find this unfunny. Not only because it's jank but also because of the topic.<br>This was just something I came up with in minutes, so of course it's not a Oscar-worthy short.";
+				date.innerHTML = "<p><strong><em><small>Finished September 1st 2024.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "yawc") {
+				title.innerHTML = "Yet another walk cycle";
+				desc.innerHTML = "I mean, it's a little stilted here and there, but hey, it's a walk cycle. What are you going to do about it?";
+				date.innerHTML = "<p><strong><em><small>Finished July 29th 2024.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "psycholittleguy") {
+				title.innerHTML = "P-Head With A Plan (storyboard)";
+				desc.innerHTML = " I find Greeny Phatom... strange... to this very day. With that being said, this is the longest thing I've ever storyboarded! How sad...";
+				date.innerHTML = "<p><strong><em><small>Finished March 24th 2024.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "12principles_2023") {
+				title.innerHTML = "12 Principles Practice (2023)";
+				desc.innerHTML = " Practice makes perfect. I might start doing this every two years from now on... maybe.";
+				date.innerHTML = "<p><strong><em><small>Finished October 5th 2023.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "foot") {
+				title.innerHTML = "Little Guy and The Foot";
+				desc.innerHTML = " 2.14 stars on Newgrounds! 2.14 stars on Newgrounds!! 2.14 stars on Newgrounds!!! 2.14 stars on Newgrounds!!!! <strong><big><em>2.14 stars on Newgrounds!!!!!</em></big></strong> <a href='https://www.newgrounds.com/portal/view/886338'>And it's still up...</a>";
+				date.innerHTML = "<p><strong><em><small>Finished June 2nd 2023.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>. <a href='../resources/videos/foot.swf' target='_blank'>Flash version available.</a>";
+			} else if (ied === "homemade") {
+				title.innerHTML = "A Bomb Factory";
+				desc.innerHTML = "One of many examples of me being late to a meme. Also quite unfunny. And lazy.";
+				date.innerHTML = "<p><strong><em><small>Finished May 19th 2023.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "stanlook") {
+				title.innerHTML = "Stan Looks Around";
+				desc.innerHTML = "Self-explanatory title.";
+				date.innerHTML = "<p><strong><em><small>Finished March 5th 2023.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "andreboom") {
+				title.innerHTML = "Andre Explodes";
+				desc.innerHTML = "<a href='../resources/images/jobel.jpg' target='_blank'>By Aleph, age 13. My mom says I'm cool</a>";
+				date.innerHTML = "<p><strong><em><small>Finished February 2023.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "nosd_store") {
+				title.innerHTML = "Nightmare: Outer Space Demon's Failed Pilot";
+				desc.innerHTML = "What store? There's no background.";
+				date.innerHTML = "<p><strong><em><small>Finished October 23rd 2022.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "fgpt") {
+				title.innerHTML = "F.G.P.T. Storyboard Test";
+				desc.innerHTML = "Uhh...";
+				date.innerHTML = "<p><strong><em><small>Finished ??? 2022.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "goodbadlips") {
+				title.innerHTML = "Lip-sync test";
+				desc.innerHTML = "Finally getting better at lipsync here, I see. Part of this is, of course, stolen audio, not sure about what exactly it was from but <a href='https://cosmictoons.neocities.org'>CosmicToons</a> voiced the cheese-headed bean boy.";
+				date.innerHTML = "<p><strong><em><small>Finished February ??? 2022.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "johnnytest") {
+				title.innerHTML = "johnnytest.swf";
+				desc.innerHTML = "I will never be able to match the quality of lolwut.info.";
+				date.innerHTML = "<p><strong><em><small>Finished ??? 2021.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "12principles_2021") {
+				title.innerHTML = "12 Principles Practice (2021)";
+				desc.innerHTML = "Ugh.";
+				date.innerHTML = "<p><strong><em><small>Finished ??? 2021.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>";
+			} else if (ied === "sunshine_my_dear_watson") {
+				title.innerHTML = "Sus-shine My Dear Watson";
+				desc.innerHTML = "Ugh.";
+				date.innerHTML = "<p><strong><em><small>Finished August ??? 2021.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>. I have the source file but I'm not gonna bother giving it to you. <small><a href='https://archive.org/download/sus-shine-my-dear-watson/Sus-shine%20my%20dear%20watson.fla'>archive.org</a></small> Damn it";
+			} else if (ied === "mayors") {
+				title.innerHTML = "Just An Ordinary Web Series: Mayors";
+				desc.innerHTML = "I believe I pitched this to Albino Blacksheep but they didn't respond. Safe to say that it sucked.";
+				date.innerHTML = "<p><strong><em><small>Finished May ??? 2021.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>.";
+			} else if (ied === "mfa") {
+				title.innerHTML = "First Ever Flash Animation!";
+				desc.innerHTML = "<a href='https://archive.org/details/twipsyautopistaciberespacio'>I finally got to see the topic of this video for myself</a>... and it's just another edutainment game. What a shock.";
+				date.innerHTML = "<p><strong><em><small>Finished June ??? 2020.</small></em></strong></p>";
+				req.innerHTML = "A browser with HTML5 video support or <a href='https://www.videolan.org/vlc/download-windows.html'>the VLC plugin</a>.";
+			}
+			
+			viewfull.innerHTML = '<a href="'../../resources/videos/' + ied + '.jpg" target="_blank">Click the image (or click here) to watch this video!</a>';
+			
+		  }
+		  </script>
+      </div>
