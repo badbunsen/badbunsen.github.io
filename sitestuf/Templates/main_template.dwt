@@ -39,7 +39,7 @@
 
 <TD><A HREF="/archive/videos"><IMG SRC="/resources/grfx/site/icons/projector.gif" ALT="Videos" TITLE="Videos" BORDER=0 HEIGHT=32 WIDTH=32></A></TD>
 
-<TD><A HREF="/archive/about"><IMG SRC="/resources/grfx/site/icons/users.gif" ALT="About" TITLE="About" BORDER=0 HEIGHT=32 WIDTH=32></A></TD>
+<TD><A HREF="/about/"><IMG SRC="/resources/grfx/site/icons/users.gif" ALT="About" TITLE="About" BORDER=0 HEIGHT=32 WIDTH=32></A></TD>
 
 <TD><A HREF="/moar"><IMG SRC="/resources/grfx/site/icons/links.gif" ALT="Links" TITLE="Links" BORDER=0 HEIGHT=32 WIDTH=32></A></TD>
 </TR>
@@ -59,10 +59,10 @@ sample text. sample text. sample text. sample text. sample text.
 <!--START FOOTER-->
 <FONT SIZE=-1>Copyright &copy; Aleph Diallo.</FONT>
 <BR>
-<FONT SIZE=-1>Site code licensed under the BSD 3-Clause License.</FONT>
+<FONT SIZE=-1><a href="https://github.com/rubberocket/rubberocket.github.io" target="_blank">Site code</a> licensed under the <a href="https://opensource.org/license/BSD-3-clause" target="_blank">BSD 3-Clause License</a>.</FONT>
 <BR>
 <FONT SIZE=-1>Site assets, excluding Windows 98 icons and other
-copyrighted works not by Aleph Diallo licensed under the <A HREF="/archive/upl/LICENSE.txt" target="_blank">Untitled
+copyrighted works not by Aleph Diallo, licensed under the <A HREF="/archive/upl/LICENSE.txt" target="_blank">Untitled
 Public License</A>.</FONT>
 <!--END FOOTER-->
 
