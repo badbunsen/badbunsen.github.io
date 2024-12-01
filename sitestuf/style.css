@@ -1,0 +1,124 @@
+/* start fonts */
+@font-face {
+	font-family: "Archivo";
+	font-style: normal;
+	font-display: swap;
+	src: url("resources/fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Archivo Italic";
+	font-style: italic;
+	font-display: swap;
+	src: url("resources/fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Archivo Narrow";
+	font-style: normal;
+	font-display: swap;
+	src: url("resources/fonts/Archivo_Narrow/ArchivoNarrow-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Archivo Narrow Italic";
+	font-style: italic;
+	font-display: swap;
+	src: url("resources/fonts/Archivo_Narrow/ArchivoNarrow-Italic-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-display: swap;
+	src: url("resources/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans Italic";
+	font-style: italic;
+	font-display: swap;
+	src: url("resources/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Noto Emoji";
+	font-style: normal;
+	font-display: swap;
+	src: url("resources/fonts/Noto_Emoji/NotoEmoji-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Space Grotesk";
+	font-style: normal;
+	font-display: swap;
+	src: url("resources/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+/* end fonts */
+
+html, body {
+	margin: 0;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	background-color: #FFCC00;
+	color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Archivo, Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+	text-decoration: overline underline;
+}
+
+.container {
+	width: 853px;
+	height: 522px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #FF6600;
+}
+
+.lefty {
+	width: 486px;
+	height: 522px;
+	display: block;
+	float: left;
+	background-color: #FF6600;
+}
+.linksection {
+	width: 486px;
+	height: 444px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	font-size: 57px;
+	font-weight: 300;
+	font-family: "Space Grotesk", "Courier New", Courier, monospace;
+	background-color: #FF6600;
+}
+.linksection a:link, a:visited {
+	color: #FFCC00;
+	font-weight: 300;
+	text-decoration: none;
+	transition: font-weight 250ms, color 250ms;
+}
+.linksection a:hover, a:active {
+	color: #FFFF99;
+	font-weight: 900;
+}
+
+.linksection a:active {
+	text-decoration: underline;
+}
+.logo {
+	width: 486px;
+	height: 68px;
+	background-color: #FFCC00;
+}
+
+.righty {
+	width: 367px;
+	height: 522px;
+	display: block;
+	float: left;
+	overflow-x: none;
+	overflow-y: scroll;
+	background-color: #FFFF99;
+}
