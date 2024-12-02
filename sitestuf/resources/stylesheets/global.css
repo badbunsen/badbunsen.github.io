@@ -3,54 +3,55 @@
 	font-family: "Archivo";
 	font-style: normal;
 	font-display: swap;
-	src: url("resources/fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+	src: url("../fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Archivo Italic";
 	font-style: italic;
 	font-display: swap;
-	src: url("resources/fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+	src: url("..//fonts/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Archivo Narrow";
 	font-style: normal;
 	font-display: swap;
-	src: url("resources/fonts/Archivo_Narrow/ArchivoNarrow-VariableFont_wght.ttf") format("truetype");
+	src: url("../fonts/Archivo_Narrow/ArchivoNarrow-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Archivo Narrow Italic";
 	font-style: italic;
 	font-display: swap;
-	src: url("resources/fonts/Archivo_Narrow/ArchivoNarrow-Italic-VariableFont_wght.ttf") format("truetype");
+	src: url("../fonts/Archivo_Narrow/ArchivoNarrow-Italic-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Open Sans";
 	font-style: normal;
 	font-display: swap;
-	src: url("resources/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+	src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Open Sans Italic";
 	font-style: italic;
 	font-display: swap;
-	src: url("resources/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+	src: url("../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Noto Emoji";
 	font-style: normal;
 	font-display: swap;
-	src: url("resources/fonts/Noto_Emoji/NotoEmoji-VariableFont_wght.ttf") format("truetype");
+	src: url("../fonts/Noto_Emoji/NotoEmoji-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Space Grotesk";
 	font-style: normal;
 	font-display: swap;
-	src: url("resources/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+	src: url("../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 /* end fonts */
 
 html, body {
 	margin: 0;
+	display: flex;
 	font-family: Open Sans, Arial, Helvetica, sans-serif;
 	background-color: #FFCC00;
 	color: #000000;
@@ -104,6 +105,17 @@ h1, h2 {
 	font-weight: 900;
 }
 
+.mobilemenulinks a:link, a:visited {
+	color: #FFCC00;
+	font-weight: 300;
+	text-decoration: none;
+	transition: font-weight 250ms, color 250ms;
+}
+.mobilemenulinks a:hover, a:active {
+	color: #FFFF99;
+	font-weight: 900;
+}
+
 .linksection a:active {
 	text-decoration: underline;
 }
@@ -121,4 +133,57 @@ h1, h2 {
 	overflow-x: none;
 	overflow-y: scroll;
 	background-color: #FFFF99;
+}
+.mobilemenu {
+	display: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.mobile_header {
+	display: none;
+	width: 100%;
+	background-color: #FFCC00;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 940px) {
+.righty {
+	width: 100%;
+	height: 100%;
+	background-color: #FFCC00;
+}
+.lefty {
+	display: none;
+}
+.mobile_header {
+	display: block;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.mobilemenu {
+	display: block;
+}
+.mobilemenulinks {
+	background: #FF6600;
+	font-size: 24px;
+}
+}
+
+a:link, a:visited, a:hover {
+	color: #000000;
+	text-decoration: underline;
+	transition: font-weight 250ms;
+}
+a:hover {
+	font-weight: bold;
+}
+a:active {
+	color: #ff0000;
+	text-decoration: underline;
 }

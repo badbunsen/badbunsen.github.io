@@ -7,27 +7,54 @@
 
 		<!--embed and search engine metadata-->
 		<meta property="og:title" content="Rubberocket dot com"> <!-- title -->
-		<meta property="og:description" content="The website of Aleph Diallo, established October 25th 2023 and still in search of a good design. I shall warn you that this site isn't fully mobile friendly, unless you're in landscape mode."><!-- description -->
-		<meta name="description" content="The website of Aleph Diallo, established October 25th 2023 and still in search of a good design. I shall warn you that this site isn't fully mobile friendly, unless you're in landscape mode."> <!-- description for search engines that suck ass -->
+		<meta property="og:description" content="The website of Aleph Diallo, established October 25th 2023 and still in search of a good design."><!-- description -->
+		<meta name="description" content="The website of Aleph Diallo, established October 25th 2023 and still in search of a good design."> <!-- description for search engines that suck ass -->
 		<meta property="og:url" content="https://www.rubberocket.com/"> <!-- the other canonical -->
 		<link rel="canonical" href="https://www.rubberocket.com/"> <!-- THE canonical -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="resources/stylesheets/global.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive web design -->
 
 	</head>
 
 	<body>
+
 		<div class="container">
+		
+		<div class="mobile_header">
+
+		<a href="#" onClick="menuIt(); return false;"><img src="resources/graphics/branding/rrkt_wordmark_sitesquare.gif" class="mobilemenuicon" alt="Rubberocket icon" width="64" height="64"></a>
+
+		<div class="mobilemenulinks" style="display: none;" id="mobilemenulinks">
+				<a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
+				<a href="/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
+				<a href="/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
+				<a href="/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
+				<a href="/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
+				<a href="/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>
+		</div>
+
+		<script>
+			function menuIt() {
+			  var x = document.getElementById("mobilemenulinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
+			}
+		</script>
+		</div>
 		
 		<div class="lefty">
 		<!-- start right part -->
 		<div class="linksection">
-		<a href="#" onmouseover="this.innerHTML='home &larrhk;'" onmouseout="this.innerHTML='home'">home</a><br>
-		<a href="#" onmouseover="this.innerHTML='art &larrhk;'" onmouseout="this.innerHTML='art'">art</a><br>
-		<a href="#" onmouseover="this.innerHTML='video &larrhk;'" onmouseout="this.innerHTML='video'">video </a><br>
-		<a href="#" onmouseover="this.innerHTML='ramble &larrhk;'" onmouseout="this.innerHTML='ramble'">ramble </a><br>
-		<a href="#" onmouseover="this.innerHTML='about &larrhk;'" onmouseout="this.innerHTML='about'">about </a><br>
-		<a href="#" onmouseover="this.innerHTML='links &larrhk;'" onmouseout="this.innerHTML='links'">links </a>
-		</div>
+		<a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
+		<a href="/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
+		<a href="/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
+		<a href="/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
+		<a href="/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
+		<a href="/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>		</div>
 		
 		<div class="logo">
 		  <p><img src="resources/graphics/branding/rrkt_wordmark_siterect.gif" width="486" height="68" alt="Rubberocket wordmark"></p>
@@ -38,8 +65,9 @@
 		<div class="righty">
 		<!-- now for the content -->
 		<h1>Homepage</h1>
-		</div>
-		
+		<font size="+3">BREAKING NEWS: SITE UNDER CONSTRUCTION ONCE AGAIN!</font>
+		<p>In other news: Christmas! Just 24 days away!</p>
+		<img src="resources/graphics/gifs/dancingblackman.gif" width="256">		</div>
 		</div>
 	</body>
 
