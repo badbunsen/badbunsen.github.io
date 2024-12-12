@@ -24,9 +24,9 @@
 		
 		<div class="mobile_header">
 
-		<a href="#" onClick="menuIt(); return false;"><img src="resources/graphics/branding/rrkt_wordmark_sitesquare.gif" class="mobilemenuicon" alt="Rubberocket icon" width="64" height="64"></a>
+		<a href="#" onClick="menuIt(); return false;"><img src="resources/graphics/branding/rrkt_wordmark_sitesquare.gif" class="mobilemenuicon" alt="Rubberocket menu icon" title="Rubberocket menu icon" width="64" height="64"></a>
 
-		<div class="mobilemenulinks" style="display: none;" id="mobilemenulinks">
+		<div class="mobilemenulinks" id="mobilemenulinks">
 				<a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
 				<a href="/archive/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
 				<a href="/archive/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
@@ -36,12 +36,13 @@
 		</div>
 
 		<script>
+			var argh = document.getElementById("mobilemenulinks");
+			argh.style="display: none;"
 			function menuIt() {
-			  var x = document.getElementById("mobilemenulinks");
-			  if (x.style.display === "block") {
-				x.style.display = "none";
+			  if (argh.style.display === "block") {
+				argh.style.display = "none";
 			  } else {
-				x.style.display = "block";
+				argh.style.display = "block";
 			  }
 			}
 		</script>
@@ -51,11 +52,11 @@
 		<!-- start right part -->
 		<div class="linksection">
       <a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
-      <a href="/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
-      <a href="/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
-      <a href="/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
-      <a href="/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
-      <a href="/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>
+      <a href="/archive/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
+      <a href="/archive/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
+      <a href="/archive/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
+      <a href="/archive/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
+      <a href="/archive/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>
     </div>
 		
 		<div class="logo">
