@@ -36,8 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload stuff in the siteSTUF folder
-          path: './sitestuf/'
+          # Upload stuff in the root folder because GitHub pages sucks fuck
+          path: './'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
