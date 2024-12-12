@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<link rel="icon" type="image/x-icon" href="/favicon.ico"> <!-- icon for browsers, next to title -->
+		<title>{{page.title}}</title>
+
+		<!--embed and search engine metadata-->
+		<meta property="og:title" content="Rubberocket dot com"> <!-- title -->
+		<meta property="og:description" content="{{page.description}}"><!-- description -->
+		<meta name="description" content="{{page.description}}"> <!-- description for search engines that suck ass -->
+    <meta name="keywords" content="{{page.keywords}}"> <!--keywords-->
+		<meta property="og:url" content="{{site.url}}{{page.url}}"> <!-- the other canonical -->
+		<link rel="canonical" href="{{site.url}}{{page.url}}"> <!-- THE canonical -->
+		<link rel="stylesheet" href="/resources/stylesheets/global.css"> <!-- duh -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive web design -->
+
+	</head>
+
+	<body>
+
+		<div class="container">
+		
+		<div class="mobile_header">
+
+		<a href="#" onClick="menuIt(); return false;"><img src="resources/graphics/branding/rrkt_wordmark_sitesquare.gif" class="mobilemenuicon" alt="Rubberocket icon" width="64" height="64"></a>
+
+		<div class="mobilemenulinks" style="display: none;" id="mobilemenulinks">
+				<a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
+				<a href="/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
+				<a href="/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
+				<a href="/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
+				<a href="/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
+				<a href="/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>
+		</div>
+
+		<script>
+			function menuIt() {
+			  var x = document.getElementById("mobilemenulinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
+			}
+		</script>
+		</div>
+		
+		<div class="lefty">
+		<!-- start right part -->
+		<div class="linksection">
+      <a href="/" onMouseOver="this.innerHTML='home &larrhk;'" onMouseOut="this.innerHTML='home'">home</a><br>
+      <a href="/art/" onMouseOver="this.innerHTML='art &larrhk;'" onMouseOut="this.innerHTML='art'">art</a><br>
+      <a href="/video/" onMouseOver="this.innerHTML='video &larrhk;'" onMouseOut="this.innerHTML='video'">video </a><br>
+      <a href="/blog/" onMouseOver="this.innerHTML='blog &larrhk;'" onMouseOut="this.innerHTML='blog'">blog </a><br>
+      <a href="/about/" onMouseOver="this.innerHTML='about &larrhk;'" onMouseOut="this.innerHTML='about'">about </a><br>
+      <a href="/links/" onMouseOver="this.innerHTML='links &larrhk;'" onMouseOut="this.innerHTML='links'">links </a>
+    </div>
+		
+		<div class="logo">
+		  <p><img src="/resources/graphics/branding/rrkt_wordmark_siterect.gif" width="486" height="68" alt="Rubberocket wordmark"></p>
+		</div>
+		<!-- end left part -->	
+		</div>
+		
+		<div class="righty">
+		<!-- now for the content -->
+		{{content}}
+		</div>
+		</div>
+	</body>
+
+</html>
