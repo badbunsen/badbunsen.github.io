@@ -131,7 +131,7 @@
 }
 @media only screen and (min-width: 768px) {
 	.mainbox {
-	border: 5px solid white;
+	border: 5px solid black;
 	}
 	.header_links {
 	margin-top: -4px;
