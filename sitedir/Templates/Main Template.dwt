@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Home ::: Aleph's Website</title>
+	<!-- TemplateEndEditable -->
+	<!-- seo stuff -->
+		<meta name="title" content="The Homepage of Aleph's Website">
+
+		<meta name="description" content="The main homepage for Aleph's Website. Come on in and see the sights or however the saying goes.">
+
+		<meta name="keywords" content="rubberocket, rubberocket.com, Aleph Diallo, Aleph's Website, alephdfilms, rubber rocket, Rubber Rocket, rubberrocket, RubberRocket Studios, Cartoons, Animations, Art, Videos, Games, Downloads">
+
+		<meta name="robots" content="index, follow">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="English">
+
+		<meta name="author" content="Aleph Diallo">
+		
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- end seo stuff -->
+
+		<link rel="stylesheet" href="../media/styles/main.css">
+		
+		<style>
+		body {
+		background: #000;
+		}
+		</style>
+
+	    <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+	</head>
+
+	<body>
+		
+		<div class="mainbox">
+
+		<nav>
+		<!-- header (not to be confused with an article header!) -->
+		<div class="header" id="header">
+		
+		<!-- banner -->
+		<picture>
+		<source srcset="media/sitegrfx/main/thumbwlogo.svg" alt="Aleph's Website Thumbs Up" class="header_img">
+		<img src="../media/sitegrfx/main/thumbwlogo.png" alt="Aleph's Website Thumbs Up" class="header_img">
+		</picture>
+		<!-- end banner -->
+		
+		<!-- wordmark for smaller screens -->
+		<picture>
+		<source srcset="media/logos/aw_wordmark.svg" alt="Aleph's Website" class="header_wordmark">
+		<img src="../media/logos/aw_wordmark.png" alt="Aleph's Website" class="header_wordmark">
+		</picture>
+		
+		<div class="header_links"><a href="/home.html">HOME</a> <a href="/art/">ART</a> <a href="/videos/">VIDEOS</a> <a href="/games/">GAMES</a> <a href="/chardata/">CHARACTERDATA</a> <a href="/downloads/">DOWNLOADS</a> <a href="/about/">ABOUT</a></div>
+		<!-- cool line-->
+		<img src="../media/sitegrfx/main/rainbowline.png" width="100%" height="4" class="header_links_coolline pixelme">
+		</div>
+		<!--end header-->
+		</nav>
+
+		<hr>
+
+		<!-- under construction -->
+		<p align="center"><img src="../media/gifsfromgeocities/construction.gif" alt="This site is under construction. Come back often." class="pixelme"></p>
+		
+		<hr>
+
+		<main>
+		<div class="main">
+
+		<!-- your content goes here... -->
+		<div class="main_content">
+		<!-- TemplateBeginEditable name="main_content" -->
+			This is a placeholder.
+		<!-- TemplateEndEditable -->
+		</div>
+		<!-- your content dies here. -->
+		
+		<!-- sideabr -->
+		<div class="main_thebar">
+		<!-- TemplateBeginEditable name="main_thebar" -->
+			This is also a placeholder.
+		<!-- TemplateEndEditable -->
+		</div>
+		<!-- end sideabr -->
+
+		</div>
+		</main>
+
+
+		<div class="footer">
+		<hr>
+
+		Copyright &copy 2022-{YEAR HERE} Aleph Diallo. Some content may be licensed under the Creative Commons.
+
+		<hr>
+		
+		<!--the buttons-->
+		<img src="../media/buttons/aleph8831.gif" alt="Aleph's Website button">
+		<a href="https://www.archive.org" target="_blank"><img src="../media/buttons/internetarchive.gif" alt="Visit the Internet Archive!"></a>
+		<img src="../media/buttons/mwm_dw_88x31.gif" alt="Code made with Macromedia Dreamweaver">
+		<img src="../media/buttons/mwm_fw_88x31.gif" alt="Graphics made with Macromedia Fireworks">
+		<img src="../media/buttons/made_with_windows.gif" alt="Made with Windows">
+		<img src="../media/buttons/bestview.gif" alt="Best viewed with open eyes (redundant i know)">
+
+		</div>
+		</div>
+
+		<!--<div align='center'>
+		<img src='https://www.free-website-hit-counter.com/zc.php?d=9&id=3128&s=1' border='0' alt='Hit counter.'>
+		</div>-->
+
+	</body>
+
+</html>
