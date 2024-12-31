@@ -9,7 +9,7 @@
 
 		<meta name="description" content="Aleph Diallo (that would be me) and his very own website. Contains art, animations, and a some other stuff that you can see for yourself by entering.">
 
-		<meta name="keywords" content="rubberocket, rubberocket.com, Aleph Diallo, Aleph's Website, alephdfilms, rubber rocket, Rubber Rocket, rubberrocket, RubberRocket Studios, Cartoons, Animations, Art, Videos, Games, Characters, Downloads, Store, Email, Yes that was a homestar runner reference, Who even uses keywords anymore?">
+		<meta name="keywords" content="rubberocket, rubberocket.com, Aleph Diallo, Aleph's Website, alephdfilms, rubber rocket, Rubber Rocket, rubberrocket, RubberRocket Studios, Cartoons, Animations, Art, Videos, Games, Downloads">
 
 		<meta name="robots" content="index, follow">
 
@@ -23,7 +23,7 @@
 
 		<!-- it only applies to this page so it doesn't really matter -->
 		<style>
-		html {
+		body {
 		background: #000000 url("media/sitegrfx/splash/background.gif");
 		color: #ffffff;
 		width: 100%;
@@ -37,7 +37,7 @@
 
 		.splashbox {
 		width: 620px;
-		margin: 0 auto;
+		margin: auto;
 		background: #ffffff; 
 		color: #000000;
 		overflow: scroll;
@@ -46,6 +46,7 @@
 		/* wordmark */
 		.aw_logo {
 		width: 500px;
+		margin: -1px;
 		}
 		
 		/* splash */
@@ -57,7 +58,7 @@
 		
 		/* mobile ver. */
 		
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 		.splashbox {
 		margin: 0 auto;
 		position: fixed;
@@ -74,7 +75,7 @@
 		width: 100%;
 		}
 	}
-	@media only screen and (min-width: 769px) {
+	@media only screen and (min-width: 768px) {
 		.splashbox {
 		border: 5px solid black;
 		}
@@ -89,7 +90,10 @@
 		<div class="splashbox">
 
 		<!-- logo -->
-		<img src="media/logos/aw_wordmark.svg" class="aw_logo">
+		<picture>
+		<source srcset="media/logos/aw_wordmark.svg" class="aw_logo">
+		<img src="media/logos/aw_wordmark.png" class="aw_logo"> <!--fallback-->
+		</picture>
 
 		<hr>
 		<!-- requirements -->
@@ -108,7 +112,7 @@
 
 		<p>
 		Welcome to Aleph's Website! <small>(formerly rubberocket.com)</small>
-		It's chockfull of art, animations, cartoons, videos, (possibly) games, and the rest... whatever those were.
+		It's brimming with art, animations, videos, (possibly) games, and the rest... whatever those were.
 		</p>
 
 		<p>
@@ -118,7 +122,7 @@
 		</p>
 
 		<p>
-		Ready? <a href="home.html">Enter, and enjoy your stay. There might even be something you'd like here.</a> Otherwise, you might be better off touching grass. Seriously, take a break from the internet sometime.
+		Ready? <a href="home.html">Enter, and enjoy your stay</a>. There might even be something you'd like here. Otherwise, you might be better off going outside. Seriously, take a break from the internet sometime.
 		</p>
 
 		<hr>
@@ -127,10 +131,10 @@
 		<!-- obligatory 88x31 buttons -->
 		
 		<img src="media/buttons/aleph8831.gif" alt="Aleph's Website button">
-		<a href="https://notepad-plus-plus.org/" target="_blank"><img src="media/buttons/notepad.gif" alt="Made with Notepad++"></a>
+		<img src="media/buttons/mwm_dw_88x31.gif" alt="Code made with Macromedia Dreamweaver">
+		<img src="media/buttons/mwm_fw_88x31.gif" alt="Graphics made with Macromedia Fireworks">
 		<img src="media/buttons/made_with_windows.gif" alt="Made with Windows">
-		<img src="media/buttons/bestview.gif" alt="Best viewed with open eyes (redundant i know)">
-		
+		<img src="media/buttons/bestview.gif" alt="Best viewed with open eyes (redundant i know)">		
 
 		</div>
 
