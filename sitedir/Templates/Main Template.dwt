@@ -52,8 +52,8 @@
 		
 		<!-- wordmark for smaller screens -->
 		<picture>
-		<source srcset="media/logos/aw_wordmark.svg" alt="Aleph's Website" class="header_wordmark">
-		<img src="../media/logos/aw_wordmark.png" alt="Aleph's Website" class="header_wordmark">
+		<source srcset="/media/logos/aw_wordmark.svg" alt="Aleph's Website" class="header_wordmark">
+		<img src="/media/logos/aw_wordmark.png" alt="Aleph's Website" class="header_wordmark">
 		</picture>
 		
 		<div class="header_links">NAV: <a href="/">HOME</a> <a href="/art/">ART</a> <a href="/videos/">VIDEOS</a> <a href="/games/">GAMES</a> <a href="/chardata/">CHARACTERDATA</a> <a href="/downloads/">DOWNLOADS</a> <a href="/about/">ABOUT</a></div>
