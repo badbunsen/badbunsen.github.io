@@ -24,8 +24,8 @@
 	text-align: center;
 }
 .header_img {
-	width: 620px;
-	height: 451px;
+	width: 100%; /* some idiot fucked up the width in chrome */
+	height: auto;
 }
 .header_wordmark {
 	width: 190px;
