@@ -59,20 +59,12 @@
 		<img src="/media/logos/aw_wordmark.png" alt="Aleph's Website" class="header_wordmark">
 		</picture>
 		
-		<div class="header_links">NAV: <a href="/">HOME</a> <a href="/art/">ART</a> <a href="/videos/">VIDEOS</a> <a href="/games/">GAMES</a> <a href="/chardata/">CHARACTERDATA</a> <a href="/downloads/">DOWNLOADS</a> <a href="/about/">ABOUT</a></div>
+		<div class="header_links">NAV: <a href="/">HOME</a> <a href="/art/">ART</a> <a href="/archive/videos/">VIDEOS</a> <a href="/games/"></a> <a href="/chardata/">CHARACTERDATA</a> <a href="/downloads/">DOWNLOADS</a> <a href="/about/">ABOUT</a></div>
 		<!-- cool line-->
 		<img src="../media/sitegrfx/main/rainbowline.png" width="100%" height="4" class="header_links_coolline pixelme">
 		</div>
 		<!--end header-->
 		</nav>
-
-		<hr>
-
-		<!-- under construction -->
-		<p align="center"><img src="/media/gifsfromgeocities/construction.gif" alt="This site is under construction. Come back often." class="pixelme"></p>
-		
-		<hr>
-
 		<main>
 		<div class="main">
 
