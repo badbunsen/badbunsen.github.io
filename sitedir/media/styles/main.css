@@ -44,8 +44,11 @@
 }
 
 .main {
+	flex-direction: row;
+}
+.main {
 	width: 100%;
-	display: block;
+	display: flex;
 }
 
 .main_content {
