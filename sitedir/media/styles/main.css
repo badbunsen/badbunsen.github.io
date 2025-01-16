@@ -78,7 +78,7 @@
 	color: #000000;
 }
 /* color links for sidebar */
-a, a:link, a:visited, a:active {
+.main_thebar a, .main_thebar a:link, .main_thebar a:visited, .main_thebar a:active {
 	color: #FFFFFF;
 }
 a:hover {
