@@ -140,3 +140,8 @@ a:active {
 	margin-top: -4px;
 	}
 }
+
+/* microformats for indieweb, hidden but still visible by parsers */
+.h-card, .h_indieweb_metadata {
+	display: none;
+}
