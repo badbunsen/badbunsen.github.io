@@ -78,14 +78,14 @@
 	color: #000000;
 }
 /* color links for sidebar */
-.main_thebar a, .main_thebar a:link, .main_thebar a:visited, .main_thebar a:active {
+.main_thebar a, .main_thebar a:link, .main_thebar a:visited {
 	color: #FFFFFF;
 }
 a:hover {
 	color: #FFCC51;
 }
 a:active {
-	color: #C6332D;
+	color: #000000;
 }
 /* color links for everything else */
 a, a:link, a:visited, a:active {
