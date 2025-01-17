@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://www.rubberocket.com</loc>
-<lastmod>2025-01-05</lastmod>
+<loc>https://badbunsen.com</loc>
+<lastmod>2025-01-16</lastmod>
 </url>
 
 <url>
-<loc>https://www.rubberocket.com/art/</loc>
-<lastmod>2025-01-04</lastmod>
+<loc>https://badbunsen.com/art/</loc>
+<lastmod>2025-01-16</lastmod>
+</url>
+
+<url>
+<loc>https://badbunsen.com/downloads/</loc>
+<lastmod>2025-01-16</lastmod>
+</url>
+
+<url>
+<loc>https://badbunsen.com/about/</loc>
+<lastmod>2025-01-16</lastmod>
+</url>
+
+<url>
+<loc>https://badbunsen.com/chardata/</loc>
+<lastmod>2025-01-16</lastmod>
 </url>
 
 </urlset>

@@ -3,6 +3,10 @@ User-agent: AdsBot-Google
 Disallow: /noscraping/
 
 User-agent: *
+User-agent: AdsBot-Google
+Disallow: /art/theart/template/index.html
+
+User-agent: *
 Allow: *
 
-Sitemap: https://www.rubberocket.com/sitemap.xml
+Sitemap: https://www.badbunsen.com/sitemap.xml
