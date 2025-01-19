@@ -1,8 +1,14 @@
+/* mainpage body colors and font */
 body {
 	background: #FFCC00;
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
+}
+
+/* page-specific body colors */
+body.body_404 {
+	background: #000;
+	color: #FFCC00;
 }
 
 /* hiding indiewebcamp-related stuff */
@@ -27,14 +33,20 @@ body {
 .home_wordmark {
 	display: block;
 	position: absolute;
-	transform: rotate(90deg);
-	top: 0;
-	left: 0;
-	transform-origin: 30px 60px;
-	width: 512px;
-	height: 70.320px;
-	background: url("../logos/alephswebsite/wordmark_horizontal.svg");
+	top: 60px;
+	right: 30px;
+	width: 70.320px;
+	height: 512px;
+	background: url("../logos/alephswebsite/wordmarks/black/wordmark_vertical.svg");
 }
+.home_wordmark_yellow {
+	background: url("../logos/alephswebsite/wordmarks/yellow/wordmark_vertical.svg");
+}
+
+.content {
+	width: calc(100% - 70.320px - 30px);
+}
+
 .navlinks {
 	width: clamp(128px, 20%, 200px);
 	height: 260.778px;
@@ -42,7 +54,7 @@ body {
 	position: absolute;
 	text-align: right;
 	top: 60px;
-	right: 30px;
+	left: 30px;
 }
 .anavlink {
 	width: 100%;
@@ -58,10 +70,12 @@ body {
 	display: block;
 	position: absolute;
 	z-index: 9;
-	background-color: #ccc;
+	background: #ccc;
+	color: #000;
 	padding: 2px;
 	border: outset #ccc 2px;
 	font-family: monospace;
+	text-align: left;
 }
 .stickynote_titlebar {
 	padding: 4px;

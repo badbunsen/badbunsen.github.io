@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"> <!--as in english, do you read it-->
+	<!-- the head, unlike that of a human's... or a fish's... or a 
+	cat's... or anything's, is often hidden from view when visiting 
+	websites. why? because it just is. suck it up and deal with it.-->
+	<head>
+		<!--SEO metadata.-->
+		<!-- This page shouldn't pop up anyways so it's just a doctitle and 
+		some other stuff -->
+
+		<!--this is the title of the page itself.-->
+		<title>aleph's website @ badbunsen.com</title>
+
+		<!--this is the name of the site you're on.-->
+		<meta property="og:site_name" content="Aleph's Website">
+
+		<!--assuming unicode is the standard everywhere, and that your 
+		computer supports it.-->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--The end of the SEO metadata-->
+
+		<!--Start appearance-related stuff-->
+
+		<!--bleagh-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--The file below is what's called a stylesheet. it makes your 
+		website either look pretty or look like it's straight from 
+		geocities... or myspace... or anything fun we've gotten taken 
+		away by shitty social media. whatever, shit happens, we shall 
+		move onto better things. that doesn't include arguing on 
+		twitter.-->
+		<link rel="stylesheet" href="/media/styles/main.css">
+
+		<!--The file below comes from FontAwesome, it's for those little 
+		icons next to the navigation links.-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--This is the little graphic that appears next to the tab's 
+		title. It's also really important so that people know what site 
+		they're on.-->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<!--End appearance-related stuff-->
+	</head>
+
+	<body class="body_404">
+
+	<!-- this is the aleph's website watermark, rotated about 90 degrees 
+	clockwise from an axis at (30, 60), or at least that's what the CSS says. 
+	-->
+	<div class="home_wordmark home_wordmark_yellow">
+	<!-- "how do you make a background image have an alt tag?!"
+	the answer? magic! complete magic! -->
+	<img src="/media/spacers/transparent.gif" 
+	width="512" 
+	height="70.320"
+	alt="Aleph's Website"
+	title="Aleph's Website">
+	</div>
+
+	<div class="content">
+	<h1>404</h1>
+	<p>The requested page was not found on the server.<br>
+	Here's a couple of reasons as to why that might be.</p>
+
+	<ul>
+		<li>This site might still be under construction. Come back later!</li>
+		<!-- Check the wayback machine for this stuff, it really works -->
+		<li id="archived">This page might have existed, but it got deleted at some point.</li>
+		<script type="text/javascript">
+		var theURL = window.location.href;
+		var archived = document.getElementById("archived");
+		var archivedURL = "http://web.archive.org/web/*/" + theURL;
+		archived.innerHTML = '<a href="' + archivedURL + '" target="_blank">' + archived.innerHTML + '</a>';
+		</script>
+		<li>This page has likely moved. <a href="/">Check the homepage.</a></li>
+	</ul>
+	</div>
+
+	</body>
+
+</html>
