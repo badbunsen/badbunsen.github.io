@@ -76,8 +76,7 @@
 		</script>
 		<li id="archived_rr">The page might have existed... on rubberocket.com.</li>
 		<script type="text/javascript">
-		var theURL = window.location.href;
-		let therrURL = theURL.replace("badbunsen.com","rubberocket.com");
+		var therrURL = "https://rubberocket.com" + window.location.pathname;
 		var archived_rr = document.getElementById("archived_rr");
 		var archived_rr_URL = "http://web.archive.org/web/*/" + therrURL;
 		archived.innerHTML = '<a href="' + archived_rr_URL + '" target="_blank">' + archived.innerHTML + '</a>';
