@@ -74,6 +74,14 @@
 		var archivedURL = "http://web.archive.org/web/*/" + theURL;
 		archived.innerHTML = '<a href="' + archivedURL + '" target="_blank">' + archived.innerHTML + '</a>';
 		</script>
+		<li id="archived_rr">The page might have existed... on rubberocket.com.</li>
+		<script type="text/javascript">
+		var theURL = window.location.href;
+		let therrURL = theURL.replace("badbunsen.com","rubberocket.com");
+		var archived_rr = document.getElementById("archived_rr");
+		var archived_rr_URL = "http://web.archive.org/web/*/" + therrURL;
+		archived.innerHTML = '<a href="' + archived_rr_URL + '" target="_blank">' + archived.innerHTML + '</a>';
+		</script>
 		<li>The page has likely moved. <a href="/">Check the homepage and go from there.</a></li>
 		<li>The page has never existed and probably never will.</li>
 		<li>Hackers from Elbonia took down the page for slandering their name.</li>
