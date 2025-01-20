@@ -3,6 +3,7 @@ body {
 	background: #FFCC00;
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 
 a:link, a:visited {
@@ -36,21 +37,8 @@ body.body_404 {
 	display: none;
 }
 
-/* header */
-.site_main_header {
-	width: 100%;
-	height: 128px;
-	display: block;
-	background-color: #fff;
-	color: #000;
-	margin: auto;
-	position: sticky;
-	top: 0;
-	left: 0;
-}
-
 /* wordmark */
-.home_wordmark {
+.aw_wordmark {
 	display: block;
 	position: absolute;
 	top: 60px;
@@ -59,12 +47,17 @@ body.body_404 {
 	height: 512px;
 	background: url("../logos/alephswebsite/wordmarks/black/wordmark_vertical.svg");
 }
-.home_wordmark_yellow {
+/* wordmark colors */
+.aw_wordmark_white {
+	background: url("../logos/alephswebsite/wordmarks/white/wordmark_vertical.svg");
+}
+.aw_wordmark_yellow {
 	background: url("../logos/alephswebsite/wordmarks/yellow/wordmark_vertical.svg");
 }
 
 .content {
-	width: calc(100% - 70.320px - 30px);
+	width: calc(100% - 70.320px - 30px - 8px);
+	padding: 4px;
 }
 
 .navlinks {
@@ -75,6 +68,15 @@ body.body_404 {
 	text-align: right;
 	top: 60px;
 	left: 30px;
+}
+.navlinks_nothome {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	display: block;
+	position: sticky;
+	top: 0;
+	left: 0;
 }
 .anavlink {
 	width: 100%;
