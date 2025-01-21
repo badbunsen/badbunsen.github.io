@@ -47,6 +47,15 @@ body.body_404 {
 	height: 512px;
 	background: url("../logos/alephswebsite/wordmarks/black/wordmark_vertical.svg");
 }
+.aw_wordmark_alt {
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+}
 /* wordmark colors */
 .aw_wordmark_white {
 	background: url("../logos/alephswebsite/wordmarks/white/wordmark_vertical.svg");
