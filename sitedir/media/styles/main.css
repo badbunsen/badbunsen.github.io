@@ -2,7 +2,7 @@
 body {
 	background: #FFCC00;
 	color: #000000;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 18px;
 }
 
@@ -77,6 +77,7 @@ body.body_404 {
 	text-align: right;
 	top: 60px;
 	left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .navlinks_nothome {
 	width: 100%;
@@ -86,6 +87,7 @@ body.body_404 {
 	position: sticky;
 	top: 0;
 	left: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .anavlink {
 	width: 100%;
@@ -123,8 +125,12 @@ body.body_404 {
 	height: 120px;
 	margin: 2px;
 	overflow: scroll;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 /* mobile stuff */
 @media only screen and (max-width: 768px) {

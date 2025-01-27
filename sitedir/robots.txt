@@ -4,7 +4,7 @@ Disallow: /noscraping/
 
 User-agent: *
 User-agent: AdsBot-Google
-Disallow: /art/theart/template/index.html
+Disallow: /portfolio/theart/template.html
 
 User-agent: *
 Allow: *
