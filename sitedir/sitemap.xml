@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<!--main site-->
 <url>
 <loc>https://badbunsen.com</loc>
-<lastmod>2025-01-19</lastmod>
+<lastmod>2025-02-01</lastmod>
 </url>
+
+<!--january 2025 archive-->
 <url>
-<loc>https://badbunsen.com/about</loc>
+<loc>https://badbunsen.com/archive/2025_01_31/about</loc>
 <lastmod>2025-01-20</lastmod>
 </url>
 <url>
-<loc>https://badbunsen.com/contact</loc>
+<loc>https://badbunsen.com/2025_01_31/contact</loc>
 <lastmod>2025-01-19</lastmod>
+</url>
+<url>
+<loc>https://badbunsen.com/2025_01_31/portfolio/</loc>
+<lastmod>2025-01-29</lastmod>
+</url>
+<url>
+<loc>https://badbunsen.com/2025_01_31/portfolio/theart/2020_12_06_wholebunchacarp.html</loc>
+<lastmod>2025-01-29</lastmod>
 </url>
 
 </urlset>
