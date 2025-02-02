@@ -5,19 +5,19 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.rubberocket.com/</loc>        <!--   homepage   -->
+		<loc>https://badbunsen.com/</loc>        <!--   homepage   -->
 		<lastmod>2024-09-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/art/</loc>    <!-- artview page -->
+		<loc>https://badbunsen.com/art/</loc>    <!-- artview page -->
 		<lastmod>2024-09-01</lastmod>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/videos/</loc> <!--  video page  -->
+		<loc>https://badbunsen.com/videos/</loc> <!--  video page  -->
 		<lastmod>2024-09-02</lastmod>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/about/</loc>  <!--  about page  -->
+		<loc>https://badbunsen.com/about/</loc>  <!--  about page  -->
 		<lastmod>2024-09-02</lastmod>
 	</url>
 </urlset>

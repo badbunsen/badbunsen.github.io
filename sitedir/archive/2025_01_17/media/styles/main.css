@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "W95FA";
 	src: 	local("W95FA"),
-			url("https://www.rubberocket.com/media/fonts/W95FA.otf")	format("opentype"),
-			url("https://www.rubberocket.com/media/fonts/w95fa.woff")	format("woff"),
-			url("https://www.rubberocket.com/media/fonts/w95fa.woff2")	format("woff");
+			url("https://badbunsen.com/media/fonts/W95FA.otf")	format("opentype"),
+			url("https://badbunsen.com/media/fonts/w95fa.woff")	format("woff"),
+			url("https://badbunsen.com/media/fonts/w95fa.woff2")	format("woff");
 } /* pixel font */
 
 /* pixelate certain images */
