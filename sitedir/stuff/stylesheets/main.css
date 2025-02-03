@@ -2,33 +2,10 @@
 
 /* styles are what change the color and sizes of stuff on your site. */
 
-/* these are variables that are being used in the code
-    these tended to confuse some people, so I only kept 
-    the images as variables */
-
-:root {
-	/* --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg'); */
-
-	/* colors */
-	--content: #43256E;
-}
-
-/* if you have the URL of a font, you can set it below */
-/* feel free to delete this if it's not your vibe */
-
-/* this seems like a lot for just one font and I would have to agree 
-but I wanted to include an example of how to include a custom font.
-If you download a font file you can upload it onto your Neocities
-and then link it! Many fonts have separate files for each style
-(bold, italic, etc. T_T) which is why there are so many!
-
-*/
-
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	background-color: #08031A;
-	/* you can delete the line below if you'd prefer to not use an image */
+	background-color: #13092D;
 	background-size: 65px;
 	color: #fceaff;
 	background-image: var(--body-bg-image);
@@ -233,6 +210,14 @@ feel free to play around with the order!
 	#navbar ul {
 		flex-wrap: wrap;
 	}
+}
+
+.box_updates {
+	height: 256px;
+}
+
+.scroll {
+	overflow: scroll;
 }
 
 .copyright {
