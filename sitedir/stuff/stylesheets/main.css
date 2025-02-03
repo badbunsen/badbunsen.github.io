@@ -5,7 +5,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	background-color: #13092D;
+	background-color: #110000;
 	background-size: 65px;
 	color: #fceaff;
 	background-image: var(--body-bg-image);
@@ -34,11 +34,11 @@ and change the media query according to the comment! */
 	margin: 0 auto;
 	/* this centers the entire page */
 }
-
+	
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 #container a {
-	color: #ED64F5;
+	color: #ff0000;
 	font-weight: bold;
 	/* if you want to remove the underline
 you can add a line below here that says:
@@ -60,7 +60,7 @@ you can add them directly to the <div id="header"></div> element! */
 /* navigation section!! */
 #navbar {
 	height: 40px;
-	background-color: #13092D;
+	background-color: #110000;
 	/* navbar color */
 	width: 100%;
 }
@@ -79,7 +79,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation links*/
 #navbar li a {
-	color: #ED64F5;
+	color: #ff0000;
 	/* navbar text color */
 	font-weight: 800;
 	text-decoration: none;
@@ -88,7 +88,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-	color: #a49cba;
+	color: #c47e7e;
 	text-decoration: underline;
 }
 
@@ -100,7 +100,7 @@ you can add them directly to the <div id="header"></div> element! */
 if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
-	background-color: #241445;
+	background-color: #451414;
 	width: 200px;
 	padding: 20px;
 	font-size: smaller;
@@ -111,7 +111,7 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-	background-color: #43256E;
+	background-color: #6e2525;
 	flex: 1;
 	padding: 20px;
 	order: 2;
@@ -132,7 +132,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-	background-color: #13092D;
+	background-color: #110000;
 	/* background color for footer */
 	width: 100%;
 	padding: 10px;
@@ -143,7 +143,7 @@ footer {
 h1,
 h2,
 h3 {
-	color: #ED64F5;
+	color: #ff0000;
 }
 
 h1 {
@@ -152,13 +152,13 @@ h1 {
 
 strong {
 	/* this styles bold text */
-	color: #ED64F5;
+	color: #ff0000;
 }
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-	background-color: #13092D;
-	border: 1px solid #ED64F5;
+	background-color: #110000;
+	border: 1px solid #ff0000;
 	padding: 10px;
 }
 
@@ -169,7 +169,7 @@ strong {
 	height: 30px;
 	padding: 10px;
 	font-size: smaller;
-	background-color: #13092D;
+	background-color: #110000;
 }
 
 
