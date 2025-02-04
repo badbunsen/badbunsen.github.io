@@ -94,8 +94,8 @@ you can add them directly to the <div id="header"></div> element! */
 }
 
 #navbar_blah {
-	width: clamp(20px, 2vw, 32px);
-	height: clamp(20px, 2vw, 32px);
+	width: 22px;
+	height: 22px;
 }
 
 #flex {
