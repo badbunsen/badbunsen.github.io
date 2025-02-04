@@ -83,6 +83,7 @@ you can add them directly to the <div id="header"></div> element! */
 	/* navbar text color */
 	font-weight: 800;
 	text-decoration: none;
+	font-size: clamp(14px, 2vw, 16px);
 	/* this removes the underline */
 }
 
