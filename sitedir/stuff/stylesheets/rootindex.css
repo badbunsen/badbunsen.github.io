@@ -8,8 +8,9 @@
     margin: -180px 0 0 -160px;
 }
 .copybox, .navlinks {
-    width: 177px;
-    height: 177px;
+    width: 157px;
+    height: 157px;
+    padding: 10px;
     border-radius: 22px;
     display: inline-block;
     overflow: scroll;
@@ -20,7 +21,6 @@
 }
 .navlinks {
     background-color: #e85353;
-    padding: 10px;
     width: 157px;
     height: 157px;
 }
