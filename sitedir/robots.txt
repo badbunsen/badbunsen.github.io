@@ -4,9 +4,9 @@ Disallow: /noscraping/
 
 User-agent: *
 User-agent: AdsBot-Google
-Disallow: /portfolio/theart/template.html
+Disallow: /archive/2025_01_30/portfolio/theart/template.html
 
 User-agent: *
 Allow: *
 
-Sitemap: https://www.badbunsen.com/sitemap.xml
+Sitemap: https://badbunsen.com/sitemap.xml
