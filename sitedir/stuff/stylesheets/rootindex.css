@@ -13,7 +13,7 @@
     padding: 10px;
     border-radius: 22px;
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
 }
 .copybox {
     background-color: #ffcc00;
@@ -23,6 +23,7 @@
     background-color: #e85353;
     width: 157px;
     height: 157px;
+    font-size: small;
 }
 a:visited, a:link {
     color: #840303;
