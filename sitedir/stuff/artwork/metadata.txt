@@ -5,6 +5,20 @@ easy way to keep track of when art pieces were made, what they're called, and so
 
 Largely sorted by upload date (to the git repo), from new to old.
 
+11
+Title: Nelson, Augustus and Alastor
+Tools used: Firealpaca, Huion HS610
+Date: 2025/02/09
+Originally uploaded to: badbunsen.com
+Description:
+Three characters: one I haven't drawn in ages, another I hadn't drawn in a while, and one 
+that I just couldn't seem to figure out up until now. I actually came up with the idea of 
+them taking their picture on a whim trying to figure out what to draw, and I looked through this 
+very site and picked out three characters. Ironically, all of them were conceived around 2023. 
+The piece was originally sized at 5100x382, and this was on a mid-2007 iMac running 32-bit Windows 
+of all things! So now it's my daily driver for drawing.
+Copyright: (c) 2025 Aleph Diallo
+
 10
 Title: A character I made Today
 Tools used: ibisPaint, School Chromebook, fingers
