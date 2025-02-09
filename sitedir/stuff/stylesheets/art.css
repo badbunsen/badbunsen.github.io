@@ -58,15 +58,19 @@ border-radius: auto;
     width: auto;
     height: 240px;
 }
-.thePreview {
+
+#fullimg {
     text-align: center;
 }
+
 .previewbox {
 	width: 100%;
-	height: 240px;
+	height: 260px;
+    text-align: center;
 	display: block;
 	overflow: scroll;
 }
+
 .theupperpart {
     width: 100%;
     height: auto;
