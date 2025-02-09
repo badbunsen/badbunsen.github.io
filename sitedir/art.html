@@ -36,34 +36,83 @@
 
     <div class="main">
 		<h1>art section</h1>
-		<big><big><big><big></big>STILL NOT DONE YET</big></big></big></big>
-        <noscript>This part of the site requires JavaScript, if you don't have it then here's a no-javascript version found here. I don't want everyone being left out!</noscript>
-        <div class="theupperpart clickthru">
-			<div class="pickenchoose"><img src="stuff/spacer.gif" width="1" height="1" alt="Guy saying 'Pick something.'" title="Guy saying 'Pick Something.'" class="clickthru" /></div>
+        <noscript>
+			<pre>
+			This part of the site requires JavaScript, 
+			if you don't have it in your browser, or disabled it 
+			for performance reasons, then here's 
+			a noscript version just for you! seriously, take it!
+			<br>
+			<!-- a nice message for those who have javascript 
+			 disabled for "privacy" reasons. looking at you 
+			 stallman.-->
+			however, if you <em>manually</em> disabled it for 
+			privacy reasons, please enable it for this website. 
+			the non free code on this site does not track your 
+			information, it only loads artwork and unloads my works.
+			get your head out of your ass, take off that tinfoil 
+			hat and trust me... or you can pretend you don't have 
+			any javascript support and feel free to head on into the 
+			noscript version. no pressure.
+			</pre></noscript>
+        <div class="theupperpart" id="theupperpart" style="display: none;">
+		<p class="thePreview">
+			<a href="" id="aBiggen" target="_blank">
+			<img src="" 
+			class="preview" id="aPreview"
+			alt="">
+			</a>
+			<br>
+			<span id="fullimg">Click the image above to zoom in.</span>
+		</p>
+		<p id="aGo"></p>
+		<p>
+			<h3 id="aTitle"></h3>
+			<strong>Date finished</strong>: 
+			<span id="aDate">
+			</span><br>
+			<strong>Originally uploaded to 
+				<span id="aSite"></span>
+			</strong><br>
+			<strong>Tools used</strong>: 
+			<span id="aTools">
+			</span><br>
+			<strong>Description</strong>: 
+			<span id="aDesc">
+			</span>
+		</p>
+		</div>
+		<div class="pickenchoose" id="pickenchoose">
+		<img src="stuff/spacer.gif" width="1" height="1" 
+		alt="Guy saying 'Pick something.'" 
+		title="Guy saying 'Pick Something.'" 
+		class="clickthru" />
 		</div>
 		<div class="artscroll">
         <h3>2025</h3>
-        <img 
-		src="stuff/artwork/2025/02feb/2025_02_06/alas01_thumb.png" 
-		alt="Alastor Sketches Thumbnail"
-		class="thumb"
-		onmouseover="this.src = 'stuff/artwork/2025/02feb/2025_02_06/alas02_thumb.png';"
-		onmouseout="this.src = 'stuff/artwork/2025/02feb/2025_02_06/alas01_thumb.png';" />
+		<img src="stuff/artwork/thumbs/01.png" class="thumb" 
+		onclick="art_1(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/02.png" class="thumb" 
+		onclick="art_2(); shutDown();"/>
         <h3>2024</h3>
-		<img 
-		src="stuff/artwork/2024/05may/2024_05_25/williamandsomeone_thumb.png" 
-		alt="William and Someone Thumbnail"
-		class="thumb"
-		onmouseover="this.src = 'stuff/artwork/2024/05may/2024_05_25/williamandsomeone_thumb_02.png';"
-		onmouseout="this.src = 'stuff/artwork/2024/05may/2024_05_25/williamandsomeone_thumb.png';" />
-        <h3>2023</h3>
-		<img 
-		src="stuff/artwork/2023/08aug/2023_08_01/20230801182749_thumb.gif" 
-		alt="Nelson and Augustus Model Sheets Thumbnail"
-		class="thumb" />
-        <h3>2022</h3>
-        <h3>2021</h3>
-        <h3>2020</h3>
+		<img src="stuff/artwork/thumbs/03.png" class="thumb" 
+		onclick="art_3(); shutDown();"/>
+		<h3>2023</h3>
+		<img src="stuff/artwork/thumbs/04.gif" class="thumb" 
+		onclick="art_4(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/05.gif" class="thumb" 
+		onclick="art_5(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/06.gif" class="thumb" 
+		onclick="art_6(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/07.gif" class="thumb" 
+		onclick="art_7(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/08.gif" class="thumb" 
+		onclick="art_8(); shutDown();"/>
+		<h3>2020</h3>
+		<img src="stuff/artwork/thumbs/09.gif" class="thumb" 
+		onclick="art_9(); shutDown();"/>
+		<img src="stuff/artwork/thumbs/10.gif" class="thumb" 
+		onclick="art_10(); shutDown();"/>
 		<script src="stuff/javascript/art.js">
 		</script>
         </div>

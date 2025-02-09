@@ -2,7 +2,7 @@
     overflow: scroll;
     width: calc(100%-40px);
     padding: 10px;
-    height: 256px;
+    height: 220px;
     background-color: #123456;
     color: #abcdef;
     border-color: #112233;
@@ -22,11 +22,11 @@ width: var(--sb-size);
 }
 .artscroll::-webkit-scrollbar-track {
 background: var(--sb-track-color);
-border-radius: 3px;
+border-radius: auto;
 }
 .artscroll::-webkit-scrollbar-thumb {
 background: var(--sb-thumb-color);
-border-radius: 3px;
+border-radius: auto;
 }
 @supports not selector(::-webkit-scrollbar) {
 .artscroll {
@@ -34,7 +34,6 @@ border-radius: 3px;
                     var(--sb-track-color);
 }
 }
-
 .pickenchoose {
     display: block;
     width: 247px;
@@ -43,9 +42,37 @@ border-radius: 3px;
     background-size: 100%;
     position: relative;
     top: 33px;
-    left: 16px;
+    left: 30%;
 }
 .thumb {
     width: 64px;
     height: 64px;
+}
+.thumb:hover, .thumb:active {
+    -webkit-box-shadow:0 0 20px #fc0; 
+    -moz-box-shadow: 0 0 20px #fc0; 
+    box-shadow:0 0 20px #fc0;
+    cursor: url("../grafx/sitegrafx/cursors/pointer.gif"), pointer;
+}
+.preview {
+    width: auto;
+    height: 240px;
+}
+.thePreview {
+    text-align: center;
+}
+.theupperpart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+#aGoOldest, #aGoPrev, #aGoClose, #aGoNext, #aGoLatest {
+    font-size: 24px;
+}
+
+#aGo {
+    text-align: center;
+    font-family: 'Noto Emoji';
 }
