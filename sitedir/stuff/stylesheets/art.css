@@ -61,6 +61,12 @@ border-radius: auto;
 .thePreview {
     text-align: center;
 }
+.previewbox {
+	width: 100%;
+	height: 240px;
+	display: block;
+	overflow: scroll;
+}
 .theupperpart {
     width: 100%;
     height: auto;

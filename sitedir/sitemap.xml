@@ -4,12 +4,22 @@
 <!--main site-->
 <url>
 <loc>https://badbunsen.com</loc>
+<lastmod>2025-02-07</lastmod>
+</url>
+
+<url>
+<loc>https://badbunsen.com/bio.html</loc>
 <lastmod>2025-02-05</lastmod>
 </url>
 
 <url>
-<loc>https://badbunsen.com/bio</loc>
+<loc>https://badbunsen.com/appn.html</loc>
 <lastmod>2025-02-05</lastmod>
+</url>
+
+<url>
+<loc>https://badbunsen.com/art.html</loc>
+<lastmod>2025-02-08</lastmod>
 </url>
 
 </urlset>
