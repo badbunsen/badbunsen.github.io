@@ -11,6 +11,25 @@ function shutDown() {
 document.getElementById("pickenchoose").style = "display: none;"
 document.getElementById("theupperpart").style = "display: block;"
 }
+function art_12(){
+var filename = "stuff/artwork/12.jpg";
+var filename_lq = "stuff/artwork/lq/12.gif";
+document.getElementById("aPreview").src = filename_lq;
+document.getElementById("aBiggen").href = filename;
+
+document.getElementById("aTitle").innerHTML = "Besides, he's got a cute name now: Torso Boy! What's he complaining about?!";
+
+document.getElementById("aDate").innerHTML = "2025/02/10";
+
+document.getElementById("aSite").innerHTML = "badbunsen.com";
+document.getElementById("aTools").innerHTML = "Notebook, random blue colored pencil";
+
+document.getElementById("aLicense").innerHTML = "Copyright &copy; 2025 Aleph Diallo."
+
+document.getElementById("aDesc").innerHTML = "Yes, it's an Albuquerque and " + '"No Arms No Legs Girl In Hospital"' + " reference. Sort of. Kind of. Not really.<br>So, little wee Andre Iovine (the guy without limbs) and Alastor Bates have a little beef with each other. Andre breaks Alastor's favorite golden staff after borrowing it on Halloween night for a costume party, and Alastor, having anger management issues, is absolutely upset with Andre and rips his arms and legs with his mouth out of spite. After realizing what he's done, Alastor takes him to a hospital and apologizes. Andre is still distraught by the whole legless thing, and never forgives him for it depsite Alastor forgiving him for breaking his staff.";
+
+document.getElementById("aGo").innerHTML = '<strong>navigate:</strong><br> <a href="#early" onclick="art_10(); shutDown();">Earliest</a> <a href="#previous" onclick="art_2(); return false;" id="aGoPrev" title="previous">&#11013;</a> <a href="#close" onclick="shutUp(); return false;" id="aGoClose" title="close">&#10799;</a> <a href="#next" onclick="art_11(); return false;" id="aGoNext" title="next">&#x27A1;</a> <a href="#late" onclick="art_11(); shutDown();">Latest</a>';
+}
 function art_11(){
 var filename = "stuff/artwork/11.png";
 var filename_lq = "stuff/artwork/lq/11.gif";
@@ -192,7 +211,7 @@ document.getElementById("aTitle").innerHTML = "Alastor Sketches Part 2/2";
 document.getElementById("aDate").innerHTML = "2025/02/06";
 
 document.getElementById("aSite").innerHTML = "badbunsen.com";
-document.getElementById("aTools").innerHTML = "Large notebook, HB Pencil";
+document.getElementById("aTools").innerHTML = "Notebook, HB Pencil";
 
 document.getElementById("aLicense").innerHTML = "Copyright &copy; 2025 Aleph Diallo"
 
@@ -210,7 +229,7 @@ document.getElementById("aTitle").innerHTML = "Alastor Sketches Part 1/2";
 document.getElementById("aDate").innerHTML = "2025/02/06";
 
 document.getElementById("aSite").innerHTML = "badbunsen.com";
-document.getElementById("aTools").innerHTML = "Large notebook, HB Pencil";
+document.getElementById("aTools").innerHTML = "Notebook, HB Pencil";
 
 document.getElementById("aLicense").innerHTML = "Copyright &copy; 2025 Aleph Diallo"
 
