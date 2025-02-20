@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Title :: Aleph's Website</title>
+	<meta name="title" content="Title :: Aleph's Website" />
+	<!-- TemplateEndEditable -->
+	<meta property="og:site_name" content="Aleph's Website" />
+
+
+	<!-- TemplateBeginEditable name="SEO" -->
+	<meta name="description"
+		content="Description" />
+	<meta property="og:description"
+		content="Description" />
+	<meta property="og:type" content="website" />
+	<!-- TemplateEndEditable -->
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!-- TemplateBeginEditable name="canonical" -->
+	<link rel="canonical" href="https://badbunsen.com/link" />
+	<!-- TemplateEndEditable -->
+
+	<link rel="stylesheet" href="/stuff/stylesheets/main.css" />
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <div class="header">
+		<img src="/stuff/grafx/sitegrafx/logos/awebsite/blah_white.gif"
+		alt="Blah Guy" height="32" />
+		<img src="/stuff/grafx/sitegrafx/logos/awebsite/wordmark_white.gif" height="32" /><br />
+		<a href="/index.html">home</a> | <a href="/art.html">art</a> | <a href="/video.html">video</a> | <a href="/char.html">characters</a> | <a href="https://badbunsen.tumblr.com" target="_blank">blog</a> | <a href="/bio.html">bio</a> | <a href="/appn.html">appendix</a> | <a href="https://badbunsen.github.io/archive/" target="_blank">archive</a>
+    </div>
+
+    <div class="main"><!-- TemplateBeginEditable name="content" -->
+	content!!!
+	<!-- TemplateEndEditable --></div>
+
+	<div class="footer">
+		<strong>copyright info</strong> &mdash;
+		<em>Aleph's Website</em> media contents and text copyright &copy; 2025 Aleph Diallo, unless denoted otherwise. 
+		All rights reserved. <a href="//www.dmca.com/Protection/Status.aspx?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
+			title="DMCA.com Protection Status" class="dmca-badge" target="_blank">
+			<img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
+				alt="DMCA.com Protection Status" />
+		</a>
+		<script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js">
+		</script>
+	</div>
+
+	<div class="footerspace"></div>
+</body>
+</html>
