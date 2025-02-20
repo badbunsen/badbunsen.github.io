@@ -32,6 +32,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- InstanceBeginEditable name="head" -->
 	<link rel="stylesheet" href="stuff/stylesheets/art.css" />
+	<script>
+// if it isn't safe...
+function notsafe() {
+window.location.replace('noscript/art.html');
+}
+
+//method 1
+if (window.document.documentMode) {
+notsafe();
+}
+
+//method 2
+var ua = window.navigator.userAgent;
+var isIE = /MSIE|Trident|Edge\//.test(ua);
+if (isIE) {
+notsafe();
+}
+
+//method 3
+function reallyIsIE() {
+    var ua = window.navigator.userAgent;
+    var crappyIE = false;
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {// IE 10 or older => return version number        
+        crappyIE = true;
+    }
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {// IE 11 => return version number        
+        crappyIE = true;
+    }
+    return crappyIE;
+}
+
+if(!reallyIsIE()) {
+console.log("good job");
+}else {
+notsafe();
+}
+	</script>
 	<!-- InstanceEndEditable -->
 </head>
 
@@ -65,6 +104,7 @@ any javascript support <a href="noscript/art.html">and feel free to head on into
 noscript version</a>. no pressure.
 			</pre>
 		</noscript>
+		<noscript><div style="display: none;"></noscript>
         <div class="theupperpart" id="theupperpart" style="display: none;">
 			<div class="previewbox">
 					<a href="" id="aBiggen" target="_blank">
@@ -135,6 +175,7 @@ noscript version</a>. no pressure.
 		<script src="stuff/javascript/art.js">
 		</script>
         </div>
+		<noscript></div></noscript>
 	<!-- InstanceEndEditable --></div>
 
 	<div class="footer">
