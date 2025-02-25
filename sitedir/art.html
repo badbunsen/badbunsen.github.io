@@ -47,14 +47,6 @@ function MM_preloadImages() { //v3.0
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
 
-function MM_findObj(n, d) { //v4.0
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && document.getElementById) x=document.getElementById(n); return x;
-}
-
 function MM_nbGroup(event, grpName) { //v3.0
   var i,img,nbArr,args=MM_nbGroup.arguments;
   if (event == "init" && args.length > 2) {
@@ -87,43 +79,81 @@ function MM_nbGroup(event, grpName) { //v3.0
       nbArr[nbArr.length] = img;
   } }
 }
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
 //-->
 </script>
 <!-- InstanceBeginEditable name="head" -->
 <link rel="stylesheet" href="stuff/stylesheets/art.css">
 <!-- InstanceEndEditable --><!-- InstanceParam name="bgcolobg_color" type="color" value="#6699CC" -->
 </head>
-<body bgcolor="#6699CC" onload="MM_preloadImages('stuff/grafx/sitegrafx/maindesign/lookatu.gif','stuff/grafx/sitegrafx/maindesign/logo_f2.gif','stuff/grafx/sitegrafx/navbar/blog_02.gif','stuff/grafx/sitegrafx/navbar/bio_02.gif','stuff/grafx/sitegrafx/navbar/archive_02.gif','stuff/grafx/sitegrafx/navbar/art_02.gif','stuff/grafx/sitegrafx/navbar/char_02.gif','stuff/grafx/sitegrafx/navbar/appendix_02.gif')" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#CC0000">
-  <table class="table" border="0" cellpadding="0" cellspacing="0" width="580">
-<!-- fwtable fwsrc="markup_fireworks.png" fwbase="markup_fireworks.gif" fwstyle="Generic" fwdocid = "742308039" fwnested=""0" -->
-  <script language="JavaScript">
-  <!-- hide 
-  if (document.images) {
-  logo_f2 = new Image(142 ,229); logo_f2.src = "logo_f2.gif";
-  logo_f1 = new Image(142 ,229); logo_f1.src = "logo.gif";
-  }
-  // stop hiding -->
-  </script>
+<body bgcolor="#6699CC" onload="MM_preloadImages('stuff/grafx/sitegrafx/maindesign/lookatu.gif','stuff/grafx/sitegrafx/maindesign/logo_f2.gif','stuff/grafx/sitegrafx/navbar/blog_02.gif','stuff/grafx/sitegrafx/navbar/bio_02.gif','stuff/grafx/sitegrafx/navbar/archive_02.gif','stuff/grafx/sitegrafx/navbar/art_02.gif','stuff/grafx/sitegrafx/navbar/char_02.gif','stuff/grafx/sitegrafx/navbar/appendix_02.gif','stuff/grafx/sitegrafx/navbar/video_02.gif')" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#CC0000">
+<table width="580" border="0" cellspacing="0" cellpadding="0">
   <tr>
-   <td valign="top" align="left"><img src="spacer.gif" width="91" height="1" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="51" height="1" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="301" height="1" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="137" height="1" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="1" border="0"></td>
+    <td width="142" align="left" valign="top">
+	  <table width="142" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="142"><a href="#" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('logo1','','stuff/grafx/sitegrafx/maindesign/logo_f2.gif',1)" ><img src="stuff/grafx/sitegrafx/maindesign/logo.gif" name="logo1" width="142" height="229" border="0" id="logo1"></a></td>
+        </tr>
+        <tr>
+          <td><table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top" align="left"><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','art','',1)" onMouseOver="MM_nbGroup('over','art','stuff/grafx/sitegrafx/navbar/art_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="art" src="stuff/grafx/sitegrafx/navbar/art_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
+            </tr>
+            <tr>
+              <td valign="top" align="left"><a href="/video.html" target="_top" onClick="MM_nbGroup('down','group1','video','',1)" onMouseOver="MM_nbGroup('over','video','stuff/grafx/sitegrafx/navbar/video_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="video" src="stuff/grafx/sitegrafx/navbar/video_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
+            </tr>
+            <tr>
+              <td valign="top" align="left"><a href="/char.html" target="_top" onClick="MM_nbGroup('down','group1','chardata','',1)" onMouseOver="MM_nbGroup('over','chardata','stuff/grafx/sitegrafx/navbar/char_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="chardata" src="stuff/grafx/sitegrafx/navbar/char_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
+            </tr>
+  <td valign="top" align="left"><a href="/blog/" target="_top" onClick="MM_nbGroup('down','group1','blog','',1)" onMouseOver="MM_nbGroup('over','blog','stuff/grafx/sitegrafx/navbar/blog_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="blog" src="stuff/grafx/sitegrafx/navbar/blog_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
   </tr>
-
+  <td valign="top" align="left"><a href="/bio.html" target="_top" onClick="MM_nbGroup('down','group1','bio','',1)" onMouseOver="MM_nbGroup('over','bio','stuff/grafx/sitegrafx/navbar/bio_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="bio" src="stuff/grafx/sitegrafx/navbar/bio_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
   <tr>
-    <td valign="top" align="left" rowspan="3" colspan="2"><a href="#" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('logo','','stuff/grafx/sitegrafx/maindesign/logo_f2.gif',1)" ><img name="logo" src="stuff/grafx/sitegrafx/maindesign/logo.gif" width="142" height="229" border="0"></a></td>
-    <td valign="top" align="left"><img name="wordmark" src="stuff/grafx/sitegrafx/maindesign/wordmark.gif" width="301" height="80" border="0"></td>
-    <td valign="top" align="left" rowspan="2"><!--there was supposed to be something here but i moved it outside the table--></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="80" border="0"></td>
-  </tr>
-  <tr>
-    <td valign="top" align="left"><img name="shitspace" src="stuff/grafx/sitegrafx/maindesign/shitspace.gif" width="301" height="76" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="76" border="0"></td>
+    <td valign="top" align="left"><a href="/archive/" target="_top" onClick="MM_nbGroup('down','group1','archive','',1)" onMouseOver="MM_nbGroup('over','archive','stuff/grafx/sitegrafx/navbar/archive_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="archive" src="stuff/grafx/sitegrafx/navbar/archive_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
   </tr>
   <tr>
-    <td valign="top" align="left" rowspan="4" colspan="2"><!-- InstanceBeginEditable name="content" -->
+    <td valign="top" align="left"><a href="/appn.html" target="_top" onClick="MM_nbGroup('down','group1','appendix','',1)" onMouseOver="MM_nbGroup('over','appendix','stuff/grafx/sitegrafx/navbar/appendix_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="appendix" src="stuff/grafx/sitegrafx/navbar/appendix_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
+  </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td><table width="143" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="92" align="center" valign="middle"><a href="http://www.dmca.com/Protection/Status.aspx?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
+					title="DMCA.com Protection Status" class="dmca-badge" target="_blank" width="100%"><img src="http://images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
+						alt="DMCA.com Protection Status" /></a></td>
+              <td width="51" align="right" valign="top"><img name="navbar_title" src="stuff/grafx/sitegrafx/maindesign/navbar_title.gif" width="51" height="21" border="0"></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td><p><font size="-3">Aleph's Website media and text contents copyright &copy; 2022, 2023, 2025 Aleph Diallo, unless denoted otherwise. All rights reserved.</font></p>
+            <p><img src="stuff/grafx/buttons/viewdesktop_88x31.gif" width="88" height="31"><br>
+                <img src="stuff/grafx/buttons/mwm_dw_88x31.gif" width="88" height="31"><br>
+          <img src="stuff/grafx/buttons/mwm_fw_88x31.gif" width="88" height="31"></p></td>
+        </tr>
+      </table>
+	</td>
+    <td align="left" valign="top"><table width="438" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="438" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img name="wordmark" src="stuff/grafx/sitegrafx/maindesign/wordmark.gif" width="301" height="80" border="0"></td>
+          </tr>
+          <tr>
+            <td><img name="shitspace" src="stuff/grafx/sitegrafx/maindesign/shitspace.gif" width="301" height="76" border="0"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><!-- InstanceBeginEditable name="content" -->
 		<h1>art section</h1>
 		note to self: replace this version with a better, <em>less</em> javascript-reliant version
         <noscript>
@@ -219,55 +249,10 @@ noscript version</a>. no pressure.
         </div>
 		<noscript></div></noscript>
 	<!-- InstanceEndEditable --></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="73" border="0"></td>
+      </tr>
+    </table></td>
   </tr>
-  <tr>
-    <td valign="top" align="left" colspan="2" >
-      <table border="0" cellpadding="0" cellspacing="0">
-        <tr>
-          <td valign="top" align="left"><a href="#" onClick="MM_nbGroup('down','group1','art','',1)" onMouseOver="MM_nbGroup('over','art','stuff/grafx/sitegrafx/navbar/art_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="art" src="stuff/grafx/sitegrafx/navbar/art_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-		<tr>
-		  <td valign="top" align="left"><a href="/video.html" onClick="MM_nbGroup('down','group1','video','',1)" onMouseOver="MM_nbGroup('over','video','stuff/grafx/sitegrafx/navbar/video_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="video" src="stuff/grafx/sitegrafx/navbar/video_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-		<tr>
-		  <td valign="top" align="left"><a href="/char.html" onClick="MM_nbGroup('down','group1','chardata','',1)" onMouseOver="MM_nbGroup('over','chardata','stuff/grafx/sitegrafx/navbar/char_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="chardata" src="stuff/grafx/sitegrafx/navbar/char_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-		  <td valign="top" align="left"><a href="/blog/" onClick="MM_nbGroup('down','group1','blog','',1)" onMouseOver="MM_nbGroup('over','blog','stuff/grafx/sitegrafx/navbar/blog_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="blog" src="stuff/grafx/sitegrafx/navbar/blog_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-		  <td valign="top" align="left"><a href="/bio.html" onClick="MM_nbGroup('down','group1','bio','',1)" onMouseOver="MM_nbGroup('over','bio','stuff/grafx/sitegrafx/navbar/bio_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="bio" src="stuff/grafx/sitegrafx/navbar/bio_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-         <tr>
-		  <td valign="top" align="left"><a href="/archive/" onClick="MM_nbGroup('down','group1','archive','',1)" onMouseOver="MM_nbGroup('over','archive','stuff/grafx/sitegrafx/navbar/archive_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="archive" src="stuff/grafx/sitegrafx/navbar/archive_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-		<tr>
-		  <td valign="top" align="left"><a href="/appn.html" onClick="MM_nbGroup('down','group1','appendix','',1)" onMouseOver="MM_nbGroup('over','appendix','stuff/grafx/sitegrafx/navbar/appendix_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="appendix" src="stuff/grafx/sitegrafx/navbar/appendix_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
-        </tr>
-      </table>
-    </td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="181" border="0"></td>
-  </tr>
-  <tr>
-    <td valign="top" align="left"><a href="http://www.dmca.com/Protection/Status.aspx?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
-					title="DMCA.com Protection Status" class="dmca-badge" target="_blank" width="100%">
-					<img src="http://images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
-						alt="DMCA.com Protection Status" />				</a>
-				<script src="http://images.dmca.com/Badges/DMCABadgeHelper.min.js">
-				</script></td>
-    <td valign="top" align="left"><img name="navbar_title" src="stuff/grafx/sitegrafx/maindesign/navbar_title.gif" width="51" height="21" border="0"></td>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="21" border="0"></td>
-  </tr>
-  <tr>
-    <td valign="top" align="left" colspan="2"> 
-      <p><font size="-3">Aleph's Website media and text contents copyright &copy; 
-        2022, 2023, 2025 Aleph Diallo, unless denoted otherwise. All rights reserved.</font></p>
-      <p><img src="stuff/grafx/buttons/viewdesktop_88x31.gif" width="88" height="31"><br><img src="stuff/grafx/buttons/mwm_dw_88x31.gif" width="88" height="31"><br><img src="stuff/grafx/buttons/mwm_fw_88x31.gif" width="88" height="31"></p>
-   <td valign="top" align="left"><img src="spacer.gif" width="1" height="77" border="0"></td>
-  </tr>
-
-
-</table>
-
-<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hapellrollover','','stuff/grafx/sitegrafx/maindesign/lookatu.gif',1)" onClick="return false;"><img name="hapellrollover" class="hapellrollover" border="0" src="stuff/grafx/sitegrafx/maindesign/lookdown.gif" width="112" height="126" align="right"></a> 
-
+</table> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hapellrollover','','stuff/grafx/sitegrafx/maindesign/lookatu.gif',1)" onClick="return false;"><img name="hapellrollover" class="hapellrollover" border="0" src="stuff/grafx/sitegrafx/maindesign/lookdown.gif" width="112" height="126" align="right"></a>
 </body>
 <!-- InstanceEnd --></html>
