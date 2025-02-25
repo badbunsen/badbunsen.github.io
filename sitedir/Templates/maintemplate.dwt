@@ -92,7 +92,7 @@ function MM_findObj(n, d) { //v4.01
         <tr>
           <td><table border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td valign="top" align="left"><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','art','',1)" onMouseOver="MM_nbGroup('over','art','../stuff/grafx/sitegrafx/navbar/art_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="art" src="../stuff/grafx/sitegrafx/navbar/art_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
+              <td width="142" align="left" valign="top"><a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','art','',1)" onMouseOver="MM_nbGroup('over','art','../stuff/grafx/sitegrafx/navbar/art_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="art" src="../stuff/grafx/sitegrafx/navbar/art_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
             </tr>
             <tr>
               <td valign="top" align="left"><a href="/video.html" target="_top" onClick="MM_nbGroup('down','group1','video','',1)" onMouseOver="MM_nbGroup('over','video','../stuff/grafx/sitegrafx/navbar/video_02.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="video" src="../stuff/grafx/sitegrafx/navbar/video_01.gif" border="0" onLoad="" width="142" height="26"></a></td>
@@ -112,9 +112,9 @@ function MM_findObj(n, d) { //v4.01
           </table></td>
         </tr>
         <tr>
-          <td><table width="143" border="0" cellspacing="0" cellpadding="0">
+          <td><table width="141" border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <td width="92" align="center" valign="middle"><a href="http://www.dmca.com/Protection/Status.aspx?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
+              <td width="90" align="center" valign="middle"><a href="http://www.dmca.com/Protection/Status.aspx?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
 					title="DMCA.com Protection Status" class="dmca-badge" target="_blank" width="100%"><img src="http://images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=87c069ad-ed33-495d-8e1e-cc709a0dabac"
 						alt="DMCA.com Protection Status" /></a></td>
               <td width="51" align="right" valign="top"><img name="navbar_title" src="../stuff/grafx/sitegrafx/maindesign/navbar_title.gif" width="51" height="21" border="0"></td>
