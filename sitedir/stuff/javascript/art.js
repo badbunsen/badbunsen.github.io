@@ -11,7 +11,7 @@ function shutDown() {
 document.getElementById("theupperpart").style = "display: block;"
 }
 function art_15() {
-var filename = "stuff/artwork/15.png";
+var filename = "stuff/artwork/15.gif";
 var filename_lq = "stuff/artwork/lq/15.gif";
 document.getElementById("aPreview").src = filename_lq;
 document.getElementById("aBiggen").href = filename;
