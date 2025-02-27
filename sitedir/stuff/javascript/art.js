@@ -8,9 +8,30 @@
 console.log("art script loaded!"); //just in case it doesn't
 
 function shutDown() {
-document.getElementById("pickenchoose").style = "display: none;"
 document.getElementById("theupperpart").style = "display: block;"
 }
+function art_15() {
+var filename = "stuff/artwork/15.png";
+var filename_lq = "stuff/artwork/lq/15.gif";
+document.getElementById("aPreview").src = filename_lq;
+document.getElementById("aBiggen").href = filename;
+
+document.getElementById("aTitle").innerHTML = "Hapell the Eyeball's Photo!!!!";
+
+document.getElementById("aDate").innerHTML = "2025/02/26";
+
+document.getElementById("aSiteOUP").style = "";
+document.getElementById("aSite").style = "";
+document.getElementById("aSite").innerHTML = "flipanim.com as BadBunsenAgain";
+document.getElementById("aTools").innerHTML = "FlipAnim, Huion HS64";
+
+document.getElementById("aLicense").innerHTML = "Copyright &copy; 2025 Aleph Diallo. Original upload had a FlipAnim watermark."
+
+document.getElementById("aDesc").innerHTML = "I didn't expect my first drawing in flipanim to be this good... damn. Anyways, this is that eyeball fellow, he's my persona. I was going to just use my name for him but the anagram Hapell is way better, since it rhymes with eyeball and it rolls off the tongue better.";
+
+document.getElementById("aGo").innerHTML = '<strong>navigate:</strong><br /> <a href="#early" onclick="art_10(); shutDown();">Earliest</a> <a href="#previous" onclick="art_13(); return false;" id="aGoPrev" title="previous">&#11013;</a> <a href="#close" onclick="shutUp(); return false;" id="aGoClose" title="close">&#10799;</a> <a href="#next" onclick="art_14(); return false;" id="aGoNext" title="next">&#x27A1;</a> <a href="#late" onclick="art_14(); shutDown();">Latest</a>';
+}
+
 function art_14(){
 var filename = "stuff/artwork/14.png";
 var filename_lq = "stuff/artwork/lq/14.gif";
@@ -23,7 +44,7 @@ document.getElementById("aDate").innerHTML = "2025/02/16";
 
 document.getElementById("aSiteOUP").style = "";
 document.getElementById("aSite").style = "";
-document.getElementById("aSite").innerHTML = "deviantart.com & tumblr.com";
+document.getElementById("aSite").innerHTML = "deviantart.com as BadBunsenAgain & tumblr.com";
 document.getElementById("aTools").innerHTML = "Krita, Huion HS610";
 
 document.getElementById("aLicense").innerHTML = "Copyright &copy; 2025 Aleph Diallo."

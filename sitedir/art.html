@@ -91,6 +91,10 @@ function MM_findObj(n, d) { //v4.01
 </script>
 <!-- InstanceBeginEditable name="head" -->
 <link rel="stylesheet" href="stuff/stylesheets/art.css">
+<noscript>
+	<style type="text/css"><!--
+	.pickenchoose{display: none;}
+	--></style></noscript>
 <!-- InstanceEndEditable --><!-- InstanceParam name="bgcolobg_color" type="color" value="#6699CC" -->
 </head>
 <body bgcolor="#6699CC" onload="MM_preloadImages('stuff/grafx/sitegrafx/maindesign/lookatu.gif','stuff/grafx/sitegrafx/maindesign/logo_f2.gif','stuff/grafx/sitegrafx/navbar/blog_02.gif','stuff/grafx/sitegrafx/navbar/bio_02.gif','stuff/grafx/sitegrafx/navbar/archive_02.gif','stuff/grafx/sitegrafx/navbar/art_02.gif','stuff/grafx/sitegrafx/navbar/char_02.gif','stuff/grafx/sitegrafx/navbar/appendix_02.gif','stuff/grafx/sitegrafx/navbar/video_02.gif')" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#CC0000">
@@ -155,7 +159,7 @@ function MM_findObj(n, d) { //v4.01
       <tr>
         <td><!-- InstanceBeginEditable name="content" -->
 		<h1>art section</h1>
-		note to self: replace this version with a better, <em>less</em> javascript-reliant version
+		<strike>note to self: replace this version with a better, <em>less</em> javascript-reliant version</strike>
         <noscript>
 			<pre>
 This part of the site requires JavaScript, 
@@ -176,43 +180,10 @@ any javascript support <a href="noscript/art.html">and feel free to head on into
 noscript version</a>. no pressure.
 			</pre>
 		</noscript>
-		<noscript><div style="display: none;"></noscript>
-        <div class="theupperpart" id="theupperpart" style="display: none;">
-			<div class="previewbox">
-					<a href="" id="aBiggen" target="_blank">
-						<img src="" 
-						class="preview" id="aPreview"
-						alt="">
-					</a><br />
-			</div>
-			<div id="fullimg">Click the image above to zoom in.</div>
-		</p>
-		<p id="aGo"></p>
-		<p>
-			<h3 id="aTitle"></h3>
-			<strong>Date finished</strong>: 
-			<span id="aDate">
-			</span><br>
-			<strong>License</strong>: 
-			<span id="aLicense"></span><br />
-			<strong>Tools used</strong>: 
-			<span id="aTools">
-			</span><br />
-			<strong id="aSiteOUP" style="display: none;">Originally uploaded to:</strong> <span id="aSite"></span>
-			<br />
-			<strong>Description</strong>: <br>
-			<span id="aDesc">
-			</span>
-		</p>
-		</div>
-		<div class="pickenchoose" id="pickenchoose">
-		<img src="stuff/spacer.gif" width="1" height="1" 
-		alt="Guy saying 'Pick something.'" 
-		title="Guy saying 'Pick Something.'" 
-		class="clickthru" />
-		</div>
 		<div class="artscroll">
         <h3>2025</h3>
+		<img src="stuff/artwork/thumbs/15.gif" class="thumb" 
+		onclick="art_15(); shutDown();"/>
 		<img src="stuff/artwork/thumbs/14.gif" class="thumb" 
 		onclick="art_14(); shutDown();"/>
         <img src="stuff/artwork/thumbs/13.gif" class="thumb" 
@@ -247,7 +218,35 @@ noscript version</a>. no pressure.
 		<script src="stuff/javascript/art.js">
 		</script>
         </div>
-		<noscript></div></noscript>
+		<br> <!--i am very good at html-->
+		<div class="theupperpart" id="theupperpart" style="display: none;">
+			<div class="previewbox">
+					<a href="" id="aBiggen" target="_blank">
+						<img src="" 
+						class="preview" id="aPreview"
+						alt="">
+					</a><br />
+			</div>
+			<div id="fullimg">Click the image above to zoom in.</div>
+		</p>
+		<p id="aGo"></p>
+		<p>
+			<h3 id="aTitle"></h3>
+			<strong>Date finished</strong>: 
+			<span id="aDate">
+			</span><br>
+			<strong>License</strong>: 
+			<span id="aLicense"></span><br />
+			<strong>Tools used</strong>: 
+			<span id="aTools">
+			</span><br />
+			<strong id="aSiteOUP" style="display: none;">Originally uploaded to:</strong> <span id="aSite"></span>
+			<br />
+			<strong>Description</strong>: <br>
+			<span id="aDesc">
+			</span>
+		</p>
+		</div>
 	<!-- InstanceEndEditable --></td>
       </tr>
     </table></td>
