@@ -17,18 +17,24 @@ html, body {
     font-family: sans-serif;
 }
 .bb_logo_wdmk {
-    position: fixed;
+    position: absolute;
     top: 55vh;
     left: -5vh;
+    opacity: 50%;
+}
+.pixelimg {
+    image-rendering: pixelated;
 }
 .content {
-    text-align: center;
+    text-align: left;
+    width: clamp(240px, 75%, 1024px);
+    margin: auto;
 }
 .invert {
     filter: invert(0%);
 }
 @media(prefers-color-scheme: dark) {
-    html, body {
+    .dark {
         background-color: var(--main-black);
         color: var(--main-white);
         font-family: sans-serif;
@@ -36,4 +42,9 @@ html, body {
     .invert {
         filter: invert(100%);
     }
+}
+.navtag {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
