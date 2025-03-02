@@ -1,0 +1,140 @@
+/* mainpage body colors and font */
+body {
+	background: #FFCC00;
+	color: #000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+}
+
+a:link, a:visited {
+	color: #ff6600;
+}
+a:hover {
+	color: #ff0000;
+}
+a:active {
+	color: #990000;
+}
+
+/* page-specific body colors */
+body.body_404 {
+	background: #000;
+	color: #FFCC00;
+}
+
+.body_404 a:link, .body_404 a:visited {
+	color: #ff0000;
+}
+.body_404 a:hover {
+	color: #ffcccc;
+}
+.body_404 a:active {
+	color: #ff9999;
+}
+
+/* hiding indiewebcamp-related stuff */
+.h-card, .indieweb-auth {
+	display: none;
+}
+
+/* wordmark */
+.aw_wordmark {
+	display: block;
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	width: 70.320px;
+	height: 512px;
+	background: url("../logos/alephswebsite/wordmarks/black/wordmark_vertical.svg");
+}
+.aw_wordmark_alt {
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+}
+/* wordmark colors */
+.aw_wordmark_white {
+	background: url("../logos/alephswebsite/wordmarks/white/wordmark_vertical.svg");
+}
+.aw_wordmark_yellow {
+	background: url("../logos/alephswebsite/wordmarks/yellow/wordmark_vertical.svg");
+}
+
+.content {
+	width: calc(100% - 70.320px - 30px - 8px);
+	padding: 4px;
+}
+
+.navlinks {
+	width: clamp(128px, 20%, 200px);
+	height: 260.778px;
+	display: block;
+	position: absolute;
+	text-align: right;
+	top: 60px;
+	left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks_nothome {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	display: block;
+	position: sticky;
+	top: 0;
+	left: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.anavlink {
+	width: 100%;
+}
+.anavlink_small {
+	width: 50%;
+}
+
+/* sticky notes */
+.stickynote {
+	width: 136px;
+	height: 142px;
+	display: block;
+	position: absolute;
+	z-index: 9;
+	background: #ccc;
+	color: #000;
+	padding: 2px;
+	border: outset #ccc 2px;
+	font-family: monospace;
+	text-align: left;
+}
+.stickynote_titlebar {
+	padding: 4px;
+	font-size: 12px;
+	curson: move;
+	z-index: 10;
+	background-color: #009;
+	color: #fff;
+	cursor: move;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.stickynote_scroll {
+	width: 136px;
+	height: 120px;
+	margin: 2px;
+	overflow: scroll;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mobile stuff */
+@media only screen and (max-width: 768px) {
+	.navlinks {
+		width: clamp(0px, 40%, 220px);
+	}
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<title>boredom, inc.</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1;">
+<meta name="description" content="Boredom, Inc. is the website of Aleph Diallo. This website contains an extensive portfolio of art, animations and games.">
+<meta name="keywords" content="Aleph Diallo, boredom inc, Boredom Inc, Boredom Inc., Boredom, boredom, boredom incorporated, animations, art, comics, games, videos">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<!--Styles and script-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" language="JavaScript" src="isitsafe.js">
+</script>
+</head>
+
+<body>                               
+
+<div class="enter_home">
+<p><a href="home.html"><img src="images/logos/blah_guy_100.gif" alt="A bland cartoon face, belonging to the Blah Guy" width="100" height="100"></a></p>
+<h1>boredom, inc.</h1>
+<p>
+Click the blah guy to enter. (He's the cartoon face above this text)<br>
+<small><a href="/">Go back to rubberocket.com?</a></small>
+</p>
+<noscript>You need to enable JavaScript before entering!</noscript>
+<p align="center">
+You are <span id="yesorno">visitor</span> <span id="hitcount"></span>.
+</p>
+</div>
+
+<hr>
+<p align="center"></p>
+<p align="center"><img src="images/buttons/88x31/neocities.gif" alt="Neocities: The Web Is Yours" width="88" height="31"></p>
+<p align="center">&copy; aleph diallo, unless stated otherwise.</p>
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var site_data = JSON.parse(this.responseText);
+      var num_arr = site_data.info.views.toString().split("");
+      var num_str = "";
+      for (i = 0; i < num_arr.length; i++) {
+        num_str += `<img src="images/counter/c` + num_arr[i] + `.gif"/>`;
+      }
+      document.getElementById("hitcount").innerHTML = num_str;
+    }
+  };
+  xhttp.open("GET", "http://weirdscifi.ratiosemper.com/neocities.php?sitename=boredominc", true);
+  xhttp.send();
+  if(location.hostname.match('boredominc.neocities.org')){
+    document.getElementById('yesorno').innerHTML = "visitor";
+  }else {
+    document.getElementById('yesorno').innerHTML = "<em>NOT</em> visitor";
+  }
+</script>
+</body>
+
+</html>

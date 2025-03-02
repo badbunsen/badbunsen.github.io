@@ -1,0 +1,157 @@
+@font-face {
+	font-family: "W95FA";
+	src: 	local("W95FA"),
+			url("https://badbunsen.com/media/fonts/W95FA.otf")	format("opentype"),
+			url("https://badbunsen.com/media/fonts/w95fa.woff")	format("woff"),
+			url("https://badbunsen.com/media/fonts/w95fa.woff2")	format("woff");
+} /* pixel font */
+
+/* pixelate certain images */
+.pixelme {
+	image-rendering: pixelated;
+}
+
+.mainbox {
+	width: 620px;
+	margin: auto;
+	background: #ffffff; 
+	color: #000000;
+	overflow: scroll;
+	padding: 8px;
+}
+.header {
+	display: block;
+	text-align: center;
+}
+.header_img {
+	width: 100%; /* some idiot fucked up the width in chrome */
+	height: auto;
+}
+.header_wordmark {
+	width: 190px;
+	display: none;
+}
+.header_links {
+	width: 100%;
+	background: #FCCC51;
+	font-family: "W95FA", monospace;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+}
+.header_links_coolline {
+	display: none;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.main_content {
+	background: #FCCC51;
+	width: 66%;
+	padding: 2%;
+	height: auto;
+	float: left;
+	display: block;
+}
+.main_thebar {
+	background: #C6332D;
+	color: #FFFFFF;
+	width: 26%;
+	padding: 2%;
+	height: auto;
+	float: right;
+	display: block;
+}
+
+/* color links for header */
+.header_links a, .header_links a:link, .header_links a:visited {
+	color: #C6332D;
+}
+.header_links a:hover {
+	color: #FFFFFF;
+}
+.header_links a:active {
+	color: #000000;
+}
+/* color links for sidebar */
+.main_thebar a, .main_thebar a:link, .main_thebar a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFCC51;
+}
+a:active {
+	color: #000000;
+}
+/* color links for everything else */
+a, a:link, a:visited, a:active {
+	color: #000000;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #C6332D;
+}
+
+@media only screen and (max-width: 767px) {
+	.mainbox {
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block; 
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	}
+	.header_img {
+	display: none;
+	}
+	.header_wordmark, .header_links_coolline {
+	display: block;
+	}
+	.header_links {
+	background: #000000;
+	color: #FFFFFF;
+	margin-top: -1px;
+	}
+
+	.header_links a, a:link, a:visited, a:active {
+	color: #FFFFFF;
+	}
+	.header_links a:hover {
+	color: #FFCC51;
+	}
+	.header_links a:active {
+	color: #C6332D;
+	}
+	.main {
+	flex-direction: column;
+	}
+	.main_content {
+	width: 96%;
+	display: block;
+	}
+	.main_thebar {
+	width: 96%;
+	display: block;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.mainbox {
+	border: 5px solid black;
+	}
+	.header_links {
+	margin-top: -4px;
+	}
+}
+
+/* microformats for indieweb, hidden but still visible by parsers */
+.h-card, .h_indieweb_metadata {
+	display: none;
+}

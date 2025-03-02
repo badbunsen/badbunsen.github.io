@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>
+aleph's website.
+</title>
+<meta name="description" content="Finger game.">
+<meta name="keywords" content="Middle Finger, Wick Editor, Aleph Diallo, Aleph's Website, aleph's website., neocities, alephd, alephislocaldotorg, animations, art, games, videos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="aleph's website.">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+<!--lo and behol, the rebshite-->
+
+<nav>
+<div id="main-header">
+</div>
+</nav>
+<script type="text/javascript" src="../navigationbar.js"></script>
+
+<main>
+<div class="main-content" id="main" style="text-align: center;">
+<!--Game-->
+
+<script type="text/javascript">
+        var wickpath = window.location.protocol + ../../archive/webfiles/wick/games/finger.wick";
+        window.addEventListener('load', function() {
+            // Download engine
+            fetch('../wickengine.js')
+                .then(resp => resp.text())
+                .then(text => {
+                    // Inject engine
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.text = text;
+                    document.getElementsByTagName('head')[0].appendChild(script);
+
+                    // Download project
+                    fetch(wickpath)
+                        .then(resp => resp.blob())
+                        .then(blob => {
+                            // Run project
+                            Wick.WickFile.fromWickFile(blob, project => {
+                                project.inject(document.getElementById('wick-canvas-container'));
+                                document.getElementById("loading").innerHTML = "";
+                            });
+                        })
+                        .catch((e) => {
+                            console.error('Could not download Wick project.')
+                            console.error(e);
+                        });
+                })
+                .catch((e) => {
+                    console.error('Could not download Wick project.')
+                    console.error(e);
+                });
+        }, false);
+    </script>
+
+    <!-- Preloader -->
+
+    <!-- Wick project canvas container -->
+    <div id="wick-canvas-container">
+
+    </div>
+    <div id="loading">
+    Loading...
+    </div>
+  <!--Game end-->
+</div>
+</main>
+
+<footer>
+<div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
+This is all by Aleph Diallo<br>
+Made with Macromedia, HTML + &hearts;
+</div>
+</footer>
+
+</body>
+
+</html>

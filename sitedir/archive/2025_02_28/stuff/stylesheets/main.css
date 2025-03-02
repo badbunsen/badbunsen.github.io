@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Noto Emoji';
+    src: url("../fonts/NotoEmoji.ttf");
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: #110000;
+	background-size: 65px;
+	color: #fceaff;
+	cursor: url("../grafx/sitegrafx/cursors/default.gif"), default;
+}
+a:hover, a:active {
+	cursor: url("../grafx/sitegrafx/cursors/pointer.gif"), pointer;
+}
+.header {
+	width: calc(100% - 40px);
+	height: auto;
+	display: block;
+	position: sticky;
+	text-align: center;
+	background-color: #000;
+	padding: 20px;
+}
+a:visited, a:link {
+    color: #cf1818;
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    color: #ec8383;
+}
+a:active {
+    color:#8b1515
+}
+.main {
+	padding: 10px;
+	min-width: 360px;
+	width: 60%;
+	max-width: 640px;
+	margin: auto;
+	font-family: 'Times New Roman', Times, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    width: calc(100% - 16px);
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	padding: 8px;
+    background-color: #000000;
+	text-align: center;
+}
+.footerspace {
+	height: 72px;
+	display: block;
+}
+.clickthru {
+	pointer-events: none;
+}

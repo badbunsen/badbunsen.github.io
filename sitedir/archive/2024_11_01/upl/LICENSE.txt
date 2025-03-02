@@ -1,0 +1,24 @@
+                         UNTITLED PUBLIC LICENSE
+                        Version 1.2, November 2024
+
+Everyone is permitted to copy and distribute verbatim or modified 
+copies of this license document, and changing it is allowed as long 
+as the name is changed.
+
+                         UNTITLED PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+1. This can't be used on software. If you really want something similar 
+for that purpose, try the GNU General Public License, the MIT license, 
+or the BSD license.
+
+2. Once a work is licensed under the UPL, it can still be copyrighted,
+but people can do whatever they want as long as they credit the original
+author. If the original work is derivative, credit who they credited, too.
+
+3. The only limit is that, if the creator does not wish for people to 
+monetize their derivative works, then you may not profit off of your 
+derivative. This also applies to people using your derivative.
+
+4. This is a share-alike license. Your derivative must also be licensed 
+under the UPL.
