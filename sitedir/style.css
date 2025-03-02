@@ -44,7 +44,6 @@ html, body {
 .bb_nav {
     background-color: var(--main-black);
     width: 64px;
-    height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -67,9 +66,10 @@ html, body {
     height: 60px;
     padding: 2px;
     display: block;
-    top: 0px;
-    left: 0px;
     position: sticky;
+    }
+    .bb_nav_butts {
+        float: right;
     }
 }
 @media(prefers-color-scheme: dark) {
