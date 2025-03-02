@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>
+videoplayer::aleph's website.
+</title>
+<meta name="description" content="Video player for Aleph's Website.">
+<meta name="keywords" content="Aleph Diallo, Aleph's Website, aleph's website., neocities, alephd, alephislocaldotorg, animations, art, games, videos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="Video Player | aleph's website.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="videoplayer.css">
+</head>
+
+<body>
+<!--lo and behol, the rebshite-->
+
+<nav>
+<div id="main-header">
+</div>
+</nav>
+<script type="text/javascript" src="navigationbar.js"></script>
+
+<main>
+<div class="main-content">
+<div class="tv-frame">
+</div>
+<div class="embed-video" id="embed-video">
+&nbsp;
+</div>
+<div class="videobrowser" id="main">
+<h3>Welcome to the video player.</h3>
+<div class="controller" id="controller">
+<h4>Controller</h4>
+<button class="controlbuttons" onClick="document.getElementById('videotag').pause();"><i class="material-icons">pause</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').play();"><i class="material-icons">play_arrow</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').pause(); document.getElementById('videotag').currentTime = 0;"><i class="material-icons">stop</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').loop = 'true';"><i class="material-icons">loop</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').muted = true;"><i class="material-icons">volume_mute</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').muted = false;"><i class="material-icons">volume_up</i></button>
+</div>
+<h4>Browser</h4>
+<div>
+<div class="selection" id="selection">
+</div>
+</div>
+<small>
+<a href="javascript:var url = 'https://unpkg.com/@ruffle-rs/ruffle'; var script = document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle?</a><br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br>
+This is all by Aleph Diallo<br>
+Made with Macromedia, HTML + &hearts;
+</small>
+</div>
+
+</div>
+
+</div>
+</main>
+
+<script type="text/javascript" src="videoplayer.js"></script>
+
+</body>
+
+</html>

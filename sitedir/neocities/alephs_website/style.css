@@ -1,0 +1,78 @@
+html, body {
+background-color: #000;
+color: #FFF;
+}
+
+* {
+font-family: Helvetica, sans-serif;
+accent-color: #FFFF00;
+}
+
+#main-header {
+text-align: center;
+}
+.footer {
+text-align: center;
+}
+
+.navbuttons {
+background-color: #000;
+color: #FFF;
+border: 2px;
+width: 80px;
+height: 80px;
+}
+button:hover {
+border: 2px;
+border-color: #FFF;
+border-style: outset;
+}
+button:active {
+border: 2px;
+border-color: #8E8E8E;
+border-style: inset;
+}
+
+.main-content {
+width: 50%;
+height: auto;
+margin: auto;
+}
+
+a:link {
+font-style: italic;
+}
+
+a:visited {
+color: #0000EE;
+}
+
+:root {
+--widthwick: 320px;
+--heightwick: 240px;
+}
+
+#wick-canvas-container {
+width: var(--widthwick);
+height: var(--heightwick);
+overflow: hidden;
+text-align: center;
+}
+
+#preloader {
+width: var(--widthwick);
+height: var(--heightwick);
+background-color: #FFF;
+font-family: sans-serif;
+overflow: hidden;
+}
+
+img {
+image-rendering: pixelated;
+object-fit: cover;
+}
+
+img.stretchimg {
+image-rendering: pixelated;
+object-cover: fill;
+}

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /404
+Disallow: /not_found.html
+Disallow: /not_found
+Disallow: /sketchbook/frames/*
+Disallow: /art.html
+Disallow: /art
+Disallow: /notsupported.html
+Disallow: /notsupported
+
+Sitemap: https://boredominc.neocities.org/sitemap.xml
