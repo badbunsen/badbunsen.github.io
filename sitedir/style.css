@@ -1,0 +1,39 @@
+:root {
+    --main-blue:#69c;
+    --main-red:#c00;
+    --main-yellow:#fc0;
+    --main-green:#6c3;
+    --main-orange:#c60;
+    --main-purple:#63c;
+    --main-lime:#3f9;
+    --main-black:#303;
+    --main-lightpurple:#ccf;
+    --main-pink:#fcf;
+    --main-white:#cff;
+}
+html, body {
+    background-color: var(--main-blue);
+    color: var(--main-black);
+    font-family: sans-serif;
+}
+.bb_logo_wdmk {
+    position: fixed;
+    top: 55vh;
+    left: -5vh;
+}
+.content {
+    text-align: center;
+}
+.invert {
+    filter: invert(0%);
+}
+@media(prefers-color-scheme: dark) {
+    html, body {
+        background-color: var(--main-black);
+        color: var(--main-white);
+        font-family: sans-serif;
+    }
+    .invert {
+        filter: invert(100%);
+    }
+}
