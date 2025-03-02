@@ -1,0 +1,18 @@
+.body_about {
+	background: #000;
+	color: #FFF;
+}
+
+.content {
+	background: #F00;
+}
+
+.body_about a:link, .body_about a:visited {
+	color: #FFF;
+}
+.body_about a:hover {
+	color: #FC0;
+}
+.body_about a:active {
+	color: #000;
+}

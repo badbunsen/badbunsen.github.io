@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"> <!--as in english, do you read it-->
+	<!-- the head, unlike that of a human's... or a fish's... or a 
+	cat's... or anything's, is often hidden from view when visiting 
+	websites. why? because it just is. suck it up and deal with it.-->
+	<head>
+		<!--SEO metadata.-->
+		<!-- This page shouldn't pop up anyways so it's just a doctitle and 
+		some other stuff -->
+
+		<!--this is the title of the page itself.-->
+		<title>404 @ badbunsen.com</title>
+
+		<!--this is the name of the site you're on.-->
+		<meta property="og:site_name" content="Aleph's Website">
+
+		<!--assuming unicode is the standard everywhere, and that your 
+		computer supports it.-->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--The end of the SEO metadata-->
+
+		<!--Start appearance-related stuff-->
+
+		<!--bleagh-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--The file below is what's called a stylesheet. it makes your 
+		website either look pretty or look like it's straight from 
+		geocities... or myspace... or anything fun we've gotten taken 
+		away by shitty social media. whatever, shit happens, we shall 
+		move onto better things. that doesn't include arguing on 
+		twitter.-->
+		<link rel="stylesheet" href="/media/styles/main.css">
+
+		<!--The file below comes from FontAwesome, it's for those little 
+		icons next to the navigation links.-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--This is the little graphic that appears next to the tab's 
+		title. It's also really important so that people know what site 
+		they're on.-->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<!--End appearance-related stuff-->
+	</head>
+
+	<body class="body_404">
+
+	<!-- this is the aleph's website watermark, rotated about 90 degrees 
+	clockwise from an axis at (30, 60), or at least that's what the CSS says. 
+	-->
+	<div class="aw_wordmark aw_wordmark_yellow">
+	<!-- "how do you make a background image have an alt tag?!"
+	the answer? magic! complete magic! -->
+	<img src="/media/spacers/transparent.gif" 
+	width="70.320" 
+	height="512"
+	alt="Aleph's Website"
+	title="Aleph's Website"
+	class="aw_wordmark_alt">
+	</div>
+
+	<div class="content">
+	<h1>404</h1>
+	<p>The requested page was not found on the server. <a href="/">It might be best to go to the homepage to find what you want.</a><br>
+	Here's a couple of reasons as to why that might be:</p>
+
+	<ul>
+		<li>This site might still be under construction. Come back later!</li>
+		<!-- Check the wayback machine for this stuff, it really works -->
+		<li id="archived">The page might have existed, but it got deleted at some point.</li>
+		<script type="text/javascript">
+		var theURL = window.location.href;
+		var archived = document.getElementById("archived");
+		var archivedURL = "http://web.archive.org/web/*/" + theURL;
+		archived.innerHTML = '<a href="' + archivedURL + '" target="_blank">' + archived.innerHTML + '</a>';
+		</script>
+		<li id="archived_rr">The page might have existed... on rubberocket.com.</li>
+		<script type="text/javascript">
+		var therrURL = "https://rubberocket.com" + window.location.pathname;
+		var archived_rr = document.getElementById("archived_rr");
+		var archived_rr_URL = "http://web.archive.org/web/*/" + therrURL;
+		archived_rr.innerHTML = '<a href="' + archived_rr_URL + '" target="_blank">' + archived_rr.innerHTML + '</a>';
+		</script>
+		<li>The page has likely moved. <a href="/">Check the homepage and go from there.</a></li>
+		<li>The page has never existed and probably never will.</li>
+		<li>Hackers from Elbonia took down the page for slandering their name.</li>
+		<li>The page used nothing but Adobe Flash and had to be removed to get with the times.</li>
+		<li>The page was very old and was from a much different era in my life. It would probably still exist here if this were the case, or it'd be archived neatly.</li>
+		<li>The page fucking sucked.</li>
+		<li>The page contained media from Paramount-owned properties.</li>
+	</ul>
+	</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,45 @@
+:root {
+	--rubberocket-maillotjune: #FFC72C;
+	--rubberocket-blue: #418FDE;
+	--rubberocket-red: #DC4405;
+}
+
+a:link, a:visited {
+	color: var(--rubberocket-red);
+}
+a:hover, a:active {
+	color: var(--rubberocket-blue);
+}
+a:target {
+	color: black;
+}
+
+html, body {
+	background-color: var(--rubberocket-maillotjune);
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Archivo, Arial, sans-serif;
+}
+
+img.rkword {
+	min-width: 230px;
+	width: 27%;
+	height: 27%;
+}
+
+img {
+	image-rendering: pixelated;
+}
+img.cc {
+	width: 32px;
+	height: 32px;
+}
+
+div.header {
+	text-align: center;
+}
+
+div.content {
+	text-align: left;
+}
