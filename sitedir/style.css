@@ -11,29 +11,24 @@
     --main-pink:#fcf;
     --main-white:#cff;
 }
-html, body {
+html {
     background-color: var(--main-blue);
-    color: var(--main-black);
+    color: #000;
     font-family: sans-serif;
-}
-.bb_logo_wdmk {
-    position: absolute;
-    top: 55vh;
-    left: -5vh;
-    opacity: 50%;
+    background-image: url("stuff/bgtile/bb_speech.svg");
 }
 .pixelimg {
     image-rendering: pixelated;
 }
 .content {
     text-align: left;
-    width: clamp(240px, 75%, 1024px);
+    width: calc(100% - 64px - 10px);
     margin: auto;
+    float: right;
+    display: flex;
+    flex-direction: row;
 }
 .invert {
-    filter: invert(0%);
-}
-.dark .emoticon {
     filter: invert(0%);
 }
 .emoticon {
@@ -47,12 +42,96 @@ html, body {
     position: absolute;
     top: 0px;
     left: 0px;
+    padding: 5px;
 }
 .navbut {
     width: 100%;
     object-fit: scale-down;
 }
-@media screen and (max-width: 781px) {
+.navbut:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 217, 0));;
+}
+.bb_banner {
+    border: 5px solid var(--main-orange);
+}
+.bb_foot {
+    font-size: small;
+    font-family: serif;
+    width: 100%;
+    position: relative;
+    left: 72px;
+}
+.bb_section_main {
+    background-color: var(--main-yellow);
+    color: #000;
+    width: 480px;
+    padding: 2px;
+}
+.bb_section_aside {
+    width: 180px;
+    padding: 10px;
+    float: right;
+    background-color: var(--main-red);
+    display: block;
+}
+.center {
+    text-align: center;
+}
+.bb_foot {
+    display: flex;
+}
+
+.bb_hcard {
+    width: 400px;
+    height: 100px;
+    background-color: #099;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px;
+    margin: auto;
+}
+.u-photo {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    text-align: left;
+    float: left;
+}
+
+a:link, a:visited {
+    color: var(--main-red);
+    font-weight: bold;
+}
+a:hover {
+    color: var(--main-white) !important;
+}
+a:active {
+    color: var(--main-green) !important;
+}
+.bb_hcard a:link, .bb_hcard a:visited {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.indieauth-link {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+.bb_banner_container {
+    text-align: left;
+    width: calc(100% - 64px - 10px);
+    margin: auto;
+    float: right;
+}
+}
+@media screen and (max-width: 768px) {
+    .bb_section_main {
+        width: calc(100% - 4px);
+    }
+    .bb_section_aside {
+        width: calc(100% - 20px);
+    }
     .navbut {
         width: 48px;
         height: 48px;
@@ -63,33 +142,49 @@ html, body {
     }
     .bb_nav {
     width: calc(100% - 4px);
-    height: 60px;
+    height: 68px;
     padding: 2px;
     display: block;
     position: sticky;
+    text-align: center;
+    }
+    .bb_banner {
+        width: clamp(0px, 66%, 468px);
+    }
+    .bb_banner_container {
+        text-align: center;
     }
     .bb_nav_butts {
         float: right;
+    }
+    .content {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        float: right;
+        flex-direction: column;
+    }
+    .bb_foot {
+        font-size: medium;
+        font-family: serif;
+        width: 100%;
+        text-align: center;
+        position: static;
     }
 }
 @media(prefers-color-scheme: dark) {
     .dark {
         background-color: var(--main-black);
-        color: var(--main-white);
+        color: #fff;
         font-family: sans-serif;
     }
-    .bb_nav {
+    .dark .bb_nav {
         background-color: var(--main-white);
     }
-    .invert {
+    .dark  .invert {
         filter: invert(100%);
     }
-    .emoticon {
+    .dark .emoticon {
         filter: invert(0%);
     }
-}
-.navtag {
-    width: 50px;
-    height: 50px;
-    object-fit: scale-down;
 }

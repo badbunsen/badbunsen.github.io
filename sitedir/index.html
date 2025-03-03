@@ -27,39 +27,68 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://badbunsen.com/" />
     <link rel="canonical" href="https://badbunsen.com" />
-    <link rel="stylesheet" href="style.css" />
-    <style>.hapellhi{text-align: center;}</style>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        .hapellhi {
+            background: #fff;
+            width: 188px;
+            height: 195px;
+            border: 10px inset var(--main-orange)
+        }
+    </style>
+    <link rel="icon" href="/favicon.ico" />
     <meta name="revised" content="2025/03/02" />
-    <script src="stuff/js/core.js"></script>
+    <script src="/stuff/js/core.js"></script>
+    <script src="/stuff/js/jquery-3.7.1.min.js"></script>
 </head>
 
-<body class="dark">
-    <picture class="bb_logo_wdmk" width="50%">
-        <source media="(prefers-color-scheme: dark)" srcset="stuff/img/logo/badbunsen/speech_white.svg" width="50%" />
-        <source media="(prefers-color-scheme: light)" srcset="stuff/img/logo/badbunsen/speech.svg" width="50%" /><img
-            src="stuff/img/logo/badbunsen/speech.svg" width="50%"
-            alt="speech bubble containing the words badbunsen dot com in lowercase" /></picture>
-
-    <nav class="bb_nav">
-        <img src="stuff/img/emoticons/09_resident.svg" class="emoticon" alt="randomly picked emoticon navbut" id="bb_emoticon" width="50" />
-        <div class="bb_nav_butts">
-        <img src="stuff/img/buttons/navbar/about.gif" alt="About" width="49" height="49" class="pixelimg navbut" />
-        <img src="stuff/img/buttons/navbar/art.gif" alt="Art" width="49" height="49" class="pixelimg navbut" />
-        <img src="stuff/img/buttons/navbar/video.gif" alt="Video" width="49" height="49" class="pixelimg navbut" />
-        <img src="stuff/img/buttons/navbar/char.gif" alt="Characters" width="49" height="49" class="pixelimg navbut"/>
-        <img src="stuff/img/buttons/navbar/deviantart.gif" alt="BadBunsenAgain on deviantart.com" width="49" height="49" class="pixelimg navbut" />
-        </div>
+<body>
+    <div class="bb_banner_container">
+        <header><a href="/"><img src="stuff/img/sitebanner/bbdcbanner.gif" class="bb_banner"
+                    alt="bad bunsen dot com (click to go to the homepage)"></a></header>
+    </div>
+    <nav class="bb_nav"><a href="#main">skip to main content</a><br><noscript><img
+                src="stuff/img/emoticons/08_hapell.svg" class="emoticon" alt="hapell" id="bb_emoticon"
+                width="50" /></noscript>
+        <script>
+            bbRandEmoticon();
+        </script>
+        <div class="bb_nav_butts"><a href="/about/"><img src="/stuff/img/buttons/navbar/about.gif" alt="About"
+                    width="49" height="49" class="pixelimg navbut" /></a><a href="/art/"><img
+                    src="/stuff/img/buttons/navbar/art.gif" alt="Art" width="49" height="49"
+                    class="pixelimg navbut" /></a><a href="/video/"><img src="/stuff/img/buttons/navbar/video.gif"
+                    alt="Video" width="49" height="49" class="pixelimg navbut" /></a><a href="/characters/"><img
+                    src="/stuff/img/buttons/navbar/char.gif" alt="Characters" width="49" height="49"
+                    class="pixelimg navbut" /></a><a href="https://badbunsen.deviantart.com" target="_blank"><img
+                    src="/stuff/img/buttons/navbar/blog.gif" alt="Blog" width="49" height="49"
+                    class="pixelimg navbut" /><a href="https://badbunsen.deviantart.com" target="_blank"><img
+                        src="/stuff/img/buttons/navbar/deviantart.gif" alt="BadBunsenAgain on deviantart.com" width="49"
+                        height="49" class="pixelimg navbut" /></a></div>
     </nav>
-
-    <div class="content">
-        <header>
-            <p class="hapellhi">
-                <img src="stuff/artwork/hapellsketch/hello_homepage.gif" 
-                alt="Hapell the Eyeball says hi!"
-                class="pixelimg" />
-            </p>
-        </header>
+    <div class="container">
+        <div class="content">
+            <section class="bb_section_main" id="main">
+                <p class="hapellhi" style="margin: auto;"><img src="/stuff/artwork/hapellsketch/hello_homepage.gif"
+                        alt="Hapell the Eyeball says hi!" class="pixelimg" /></p>
+                <h1 class="center">Welcome to the official BadBunsen website.</h1>
+                <div class="h-card bb_hcard"><img class="u-photo" src="stuff/img/h-card/u-photo.gif"
+                        alt="Hapell the Eyeball" /><span class="p-note"><a href="https://badbunsen.com/"
+                            class="p-name u-url">Aleph "BadBunsen" Diallo</a>is an American cartoonist who really loves
+                        animation and Geocities websites. Fusing the two together, <a
+                            href="https://ndurudiallo.glitch.me">he set up a personal website in 2020</a>, and was never
+                        the same again. His favorite color is red. </span><a
+                        href="https://deviantart.com/badbunsenagain" rel="me" class="indieauth-link">@BadBunsenAgain on
+                        DeviantArt</a><a href="https://github.com/badbunsen" rel="me" class="indieauth-link">@BADBUNSEN
+                        on Github</a><a href="https://x.com/badbunsen" rel="me" class="indieauth-link">@BADBUNSEN on
+                        Twitter</a><a href="https://youtube.com/@badbunsen" rel="me" class="indieauth-link">@BADBUNSEN
+                        on YouTube</a><a href="mailto:aleph@badbunsen.com" rel="me"
+                        class="indieauth-link">aleph@badbunsen.com</a></div>
+            </section>
+            <aside class="bb_section_aside">
+                <h4>RSS Feed</h4>
+            </aside>
+        </div>
+        <footer class="bb_foot">Copyright &copy; 2022-2025 BadBunsen (Aleph Diallo). </footer>
     </div>
 </body>
 
