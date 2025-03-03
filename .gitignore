@@ -3,3 +3,5 @@ Thumbs.db
 TMP*.htm
 TMP*.html
 TMP*.php
+*.mno
+/_notes/*
